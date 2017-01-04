@@ -1,0 +1,9 @@
+D:\1306A\Lab6_WebService\Lab6_WebService\Client\bin\Debug\Client.exe.config
+D:\1306A\Lab6_WebService\Lab6_WebService\Client\bin\Debug\Client.exe
+D:\1306A\Lab6_WebService\Lab6_WebService\Client\bin\Debug\Client.pdb
+D:\1306A\Lab6_WebService\Lab6_WebService\Client\obj\Debug\Client.csprojResolveAssemblyReference.cache
+D:\1306A\Lab6_WebService\Lab6_WebService\Client\obj\Debug\Client.exe
+D:\1306A\Lab6_WebService\Lab6_WebService\Client\obj\Debug\Client.pdb
+D:\Dropbox\_Facultate\SD\Laboratoare\Lab6_WebService\Client\bin\Debug\Client.exe.config
+D:\Dropbox\_Facultate\SD\Laboratoare\Lab6_WebService\Client\obj\Debug\Client.exe
+D:\Dropbox\_Facultate\SD\Laboratoare\Lab6_WebService\Client\obj\Debug\Client.pdb

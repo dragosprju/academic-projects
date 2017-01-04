@@ -1,0 +1,231 @@
+D:/Lab6_Am2940/reg_mux.v {1 {vlog -work lab6 -vopt D:/Lab6_Am2940/reg_mux.v
+Model Technology ModelSim SE vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module reg8b
+-- Compiling module reg3b
+-- Compiling module mux8b2c
+
+Top level modules:
+	reg8b
+	reg3b
+	mux8b2c
+
+} {} {}} D:/Lab6_Am2940/am2940_test3.v {1 {vlog -work lab6 -vopt {D:\Lab6_Am2940\am2940_test3.v}
+Model Technology ModelSim SE vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module am2940_test3
+
+Top level modules:
+	am2940_test3
+
+} {} {}} D:/Dropbox/_Facultate/PSLP/Lab6_Am2940/am2940.v {1 {vlog -work work -vopt D:/Dropbox/_Facultate/PSLP/Lab6_Am2940/am2940.v
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module am2940
+
+Top level modules:
+	am2940
+
+} {} {}} D:/Lab6_Am2940/counter.v {1 {vlog -work lab6 -vopt {D:\Lab6_Am2940\counter.v}
+Model Technology ModelSim SE vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module counter8b
+
+Top level modules:
+	counter8b
+
+} {} {}} D:/Lab6_Am2940/am2940_test4.v {1 {vlog -work lab6 -vopt {D:\Lab6_Am2940\am2940_test4.v}
+Model Technology ModelSim SE vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module am2940_test4
+
+Top level modules:
+	am2940_test4
+
+} {} {}} D:/Dropbox/_Facultate/PSLP/Lab6_Am2940/am2940_test2.v {1 {vlog -work work -vopt D:/Dropbox/_Facultate/PSLP/Lab6_Am2940/am2940_test2.v
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module am2940_test2
+
+Top level modules:
+	am2940_test2
+
+} {} {}} D:/Lab6_Am2940/done_datamux.v {1 {vlog -work lab6 -vopt D:/Lab6_Am2940/done_datamux.v
+Model Technology ModelSim SE vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module datamux
+-- Compiling module donegen
+
+Top level modules:
+	datamux
+	donegen
+
+} {} {}} D:/Lab6_Am2940/am2940_test5.v {1 {vlog -work lab6 -vopt {D:\Lab6_Am2940\am2940_test5.v}
+Model Technology ModelSim SE vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module am2940_test5
+
+Top level modules:
+	am2940_test5
+
+} {} {}} D:/Dropbox/_Facultate/PSLP/Lab6_Am2940/am2940_test3.v {1 {vlog -work work -vopt D:/Dropbox/_Facultate/PSLP/Lab6_Am2940/am2940_test3.v
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module am2940_test3
+
+Top level modules:
+	am2940_test3
+
+} {} {}} D:/Dropbox/_Facultate/PSLP/Lab6_Am2940/reg_mux.v {1 {vlog -work work -vopt D:/Dropbox/_Facultate/PSLP/Lab6_Am2940/reg_mux.v
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module reg8b
+-- Compiling module reg3b
+-- Compiling module mux8b2c
+
+Top level modules:
+	reg8b
+	reg3b
+	mux8b2c
+
+} {} {}} D:/Dropbox/_Facultate/PSLP/Lab6_Am2940/counter.v {1 {vlog -work work -vopt D:/Dropbox/_Facultate/PSLP/Lab6_Am2940/counter.v
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module counter8b
+
+Top level modules:
+	counter8b
+
+} {} {}} D:/Lab6_Am2940/am2940_test6.v {1 {vlog -work lab6 -vopt {D:\Lab6_Am2940\am2940_test6.v}
+Model Technology ModelSim SE vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module am2940_test6
+
+Top level modules:
+	am2940_test6
+
+} {} {}} D:/Dropbox/_Facultate/PSLP/Lab6_Am2940/am2940_test4.v {1 {vlog -work work -vopt D:/Dropbox/_Facultate/PSLP/Lab6_Am2940/am2940_test4.v
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module am2940_test4
+
+Top level modules:
+	am2940_test4
+
+} {} {}} D:/Dropbox/_Facultate/PSLP/Lab6_Am2940/done_datamux.v {1 {vlog -work work -vopt D:/Dropbox/_Facultate/PSLP/Lab6_Am2940/done_datamux.v
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module datamux
+-- Compiling module donegen
+
+Top level modules:
+	datamux
+	donegen
+
+} {} {}} D:/Dropbox/_Facultate/PSLP/Lab6_Am2940/am2940_test5.v {1 {vlog -work work -vopt D:/Dropbox/_Facultate/PSLP/Lab6_Am2940/am2940_test5.v
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module am2940_test5
+
+Top level modules:
+	am2940_test5
+
+} {} {}} D:/Lab6_Am2940/am2940_test7.v {1 {vlog -work lab6 -vopt {D:\Lab6_Am2940\am2940_test7.v}
+Model Technology ModelSim SE vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module am2940_test7
+
+Top level modules:
+	am2940_test7
+
+} {} {}} D:/Dropbox/_Facultate/PSLP/Lab6_Am2940/am2940_test6.v {1 {vlog -work work -vopt D:/Dropbox/_Facultate/PSLP/Lab6_Am2940/am2940_test6.v
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module am2940_test6
+
+Top level modules:
+	am2940_test6
+
+} {} {}} D:/Lab6_Am2940/am2940_test.v {1 {vlog -work lab6 -vopt {D:\Lab6_Am2940\am2940_test.v}
+Model Technology ModelSim SE vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module am2940_test1
+
+Top level modules:
+	am2940_test1
+
+} {} {}} D:/Lab6_Am2940/am2940_test8.v {1 {vlog -work lab6 -vopt {D:\Lab6_Am2940\am2940_test8.v}
+Model Technology ModelSim SE vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module am2940_test8
+
+Top level modules:
+	am2940_test8
+
+} {} {}} D:/Lab6_Am2940/am2940_test_all.v {1 {vlog -work lab6 -vopt {D:\Lab6_Am2940\am2940_test_all.v}
+Model Technology ModelSim SE vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module am2940_test_all
+
+Top level modules:
+	am2940_test_all
+
+} {} {}} D:/Dropbox/_Facultate/PSLP/Lab6_Am2940/am2940_test7.v {1 {vlog -work work -vopt D:/Dropbox/_Facultate/PSLP/Lab6_Am2940/am2940_test7.v
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module am2940_test7
+
+Top level modules:
+	am2940_test7
+
+} {} {}} D:/Dropbox/_Facultate/PSLP/Lab6_Am2940/am2940_test.v {1 {vlog -work work -vopt D:/Dropbox/_Facultate/PSLP/Lab6_Am2940/am2940_test.v
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module am2940_test1
+
+Top level modules:
+	am2940_test1
+
+} {} {}} D:/Dropbox/_Facultate/PSLP/Lab6_Am2940/am2940_test8.v {1 {vlog -work work -vopt D:/Dropbox/_Facultate/PSLP/Lab6_Am2940/am2940_test8.v
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module am2940_test8
+
+Top level modules:
+	am2940_test8
+
+} {} {}} D:/Lab6_Am2940/reg_mux_test.v {1 {vlog -work lab6 -vopt D:/Lab6_Am2940/reg_mux_test.v
+Model Technology ModelSim SE vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module reg3b_test
+-- Compiling module reg8b_test
+-- Compiling module mux8b2c_test
+-- Compiling module counter8b_test
+
+Top level modules:
+	reg3b_test
+	reg8b_test
+	mux8b2c_test
+	counter8b_test
+
+} {} {}} D:/Dropbox/_Facultate/PSLP/Lab6_Am2940/reg_mux_test.v {1 {vlog -work work -vopt D:/Dropbox/_Facultate/PSLP/Lab6_Am2940/reg_mux_test.v
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module reg3b_test
+-- Compiling module reg8b_test
+-- Compiling module mux8b2c_test
+-- Compiling module counter8b_test
+
+Top level modules:
+	reg3b_test
+	reg8b_test
+	mux8b2c_test
+	counter8b_test
+
+} {} {}} D:/Lab6_Am2940/instr_dec.v {1 {vlog -work lab6 -vopt D:/Lab6_Am2940/instr_dec.v
+Model Technology ModelSim SE vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module instr_dec
+
+Top level modules:
+	instr_dec
+
+} {} {}} D:/Dropbox/_Facultate/PSLP/Lab6_Am2940/instr_dec.v {1 {vlog -work work -vopt D:/Dropbox/_Facultate/PSLP/Lab6_Am2940/instr_dec.v
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module instr_dec
+
+Top level modules:
+	instr_dec
+
+} {} {}} D:/Lab6_Am2940/am2940.v {1 {vlog -work lab6 -vopt {D:\Lab6_Am2940\am2940.v}
+Model Technology ModelSim SE vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module am2940
+
+Top level modules:
+	am2940
+
+} {} {}} D:/Lab6_Am2940/am2940_test2.v {2 {vlog -work lab6 -vopt {D:\Lab6_Am2940\am2940_test2.v}
+Model Technology ModelSim SE vlog 10.1c Compiler 2012.07 Jul 27 2012
+** Warning: (vlog-6) -- Waiting for lock by "C 2-8@C2-8-PC, pid = 2008
+". Lockfile is "D:/Lab6_Am2940/lab6/_lock".
+
+-- Compiling module am2940_test2
+
+Top level modules:
+	am2940_test2
+
+} {} {}}

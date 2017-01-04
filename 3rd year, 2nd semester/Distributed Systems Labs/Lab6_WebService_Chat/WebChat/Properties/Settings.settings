@@ -1,0 +1,12 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="WebChat.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="WebChat_ReceiveService_ReceiveService" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">http://localhost:59849/ReceiveService.asmx</Value>
+    </Setting>
+    <Setting Name="WebChat_BroadcastService_BroadcastService" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">http://localhost:59853/BroadcastService.asmx</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

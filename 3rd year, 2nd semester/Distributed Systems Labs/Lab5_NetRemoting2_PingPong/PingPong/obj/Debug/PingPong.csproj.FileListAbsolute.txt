@@ -1,0 +1,8 @@
+F:\Facultate\SD\Laboratoare\Lab5_NetRemoting_PingPong\PingPong\bin\Debug\PingPong.dll
+F:\Facultate\SD\Laboratoare\Lab5_NetRemoting_PingPong\PingPong\bin\Debug\PingPong.pdb
+F:\Facultate\SD\Laboratoare\Lab5_NetRemoting_PingPong\PingPong\obj\Debug\PingPong.dll
+F:\Facultate\SD\Laboratoare\Lab5_NetRemoting_PingPong\PingPong\obj\Debug\PingPong.pdb
+D:\Dropbox\_Facultate\SD\Laboratoare\Lab5_NetRemoting2_PingPong\PingPong\bin\Debug\PingPong.dll
+D:\Dropbox\_Facultate\SD\Laboratoare\Lab5_NetRemoting2_PingPong\PingPong\bin\Debug\PingPong.pdb
+D:\Dropbox\_Facultate\SD\Laboratoare\Lab5_NetRemoting2_PingPong\PingPong\obj\Debug\PingPong.dll
+D:\Dropbox\_Facultate\SD\Laboratoare\Lab5_NetRemoting2_PingPong\PingPong\obj\Debug\PingPong.pdb

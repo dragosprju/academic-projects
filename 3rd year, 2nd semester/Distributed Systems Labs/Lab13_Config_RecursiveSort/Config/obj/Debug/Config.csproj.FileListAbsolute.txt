@@ -1,0 +1,4 @@
+E:\Dropbox\_Facultate\SD\Laboratoare\Lab13_Config_RecursiveSort\Config\bin\Debug\Config.dll
+E:\Dropbox\_Facultate\SD\Laboratoare\Lab13_Config_RecursiveSort\Config\bin\Debug\Config.pdb
+E:\Dropbox\_Facultate\SD\Laboratoare\Lab13_Config_RecursiveSort\Config\obj\Debug\Config.dll
+E:\Dropbox\_Facultate\SD\Laboratoare\Lab13_Config_RecursiveSort\Config\obj\Debug\Config.pdb

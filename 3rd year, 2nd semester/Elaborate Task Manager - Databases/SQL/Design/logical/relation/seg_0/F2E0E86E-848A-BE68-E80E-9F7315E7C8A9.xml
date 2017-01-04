@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Sarcina_Proiect_FK" directorySegmentName="seg_0" id="F2E0E86E-848A-BE68-E80E-9F7315E7C8A9">
+<createdBy>Dragos</createdBy>
+<createdTime>2016-04-21 14:12:27 UTC</createdTime>
+<generatorID>FD36390F-95D1-5FCC-F6DB-F996BA5AF4BB</generatorID>
+<ownerDesignName>Design</ownerDesignName>
+<engineerTo>
+<item key="0546AC64-B64B-C3AC-729D-A70E457B5117" value="true"/>
+</engineerTo>
+<sourcePk>0763A575-E65A-A206-D927-6E3A767BC942</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>477E78FD-5224-55F1-1FF8-EE51808172FE</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>12A5862D-B181-16C4-9A36-6606A8C63735</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,5 @@
+D:\Lab13_Config\PluginsList\PluginsList\bin\Debug\PluginsList.exe
+D:\Lab13_Config\PluginsList\PluginsList\bin\Debug\PluginsList.pdb
+D:\Lab13_Config\PluginsList\PluginsList\obj\Debug\PluginsList.csprojResolveAssemblyReference.cache
+D:\Lab13_Config\PluginsList\PluginsList\obj\Debug\PluginsList.exe
+D:\Lab13_Config\PluginsList\PluginsList\obj\Debug\PluginsList.pdb

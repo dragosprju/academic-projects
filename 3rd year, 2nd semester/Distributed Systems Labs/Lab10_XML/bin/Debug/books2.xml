@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<library>
+  <books>
+    <book id="5">
+      <title>Ion</title>
+      <author>J. K. Rowling</author>
+    </book>
+  </books>
+  <lending>
+  </lending>
+</library>

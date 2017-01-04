@@ -1,0 +1,4 @@
+D:\Dropbox\_Facultate\SD\Laboratoare\Lab3_MSMQ_Customer\CustomerLibrary\bin\Debug\CustomerLibrary.dll
+D:\Dropbox\_Facultate\SD\Laboratoare\Lab3_MSMQ_Customer\CustomerLibrary\bin\Debug\CustomerLibrary.pdb
+D:\Dropbox\_Facultate\SD\Laboratoare\Lab3_MSMQ_Customer\CustomerLibrary\obj\Debug\CustomerLibrary.dll
+D:\Dropbox\_Facultate\SD\Laboratoare\Lab3_MSMQ_Customer\CustomerLibrary\obj\Debug\CustomerLibrary.pdb

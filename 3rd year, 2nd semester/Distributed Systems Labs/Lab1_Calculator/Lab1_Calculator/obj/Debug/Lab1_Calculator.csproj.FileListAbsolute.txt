@@ -1,0 +1,17 @@
+G:\Facultate\SD\Lab1_Calculator\Lab1_Calculator\bin\Debug\Lab1_Calculator.exe.config
+G:\Facultate\SD\Lab1_Calculator\Lab1_Calculator\bin\Debug\Lab1_Calculator.exe
+G:\Facultate\SD\Lab1_Calculator\Lab1_Calculator\bin\Debug\Lab1_Calculator.pdb
+G:\Facultate\SD\Lab1_Calculator\Lab1_Calculator\obj\Debug\Lab1_Calculator.Form1.resources
+G:\Facultate\SD\Lab1_Calculator\Lab1_Calculator\obj\Debug\Lab1_Calculator.Properties.Resources.resources
+G:\Facultate\SD\Lab1_Calculator\Lab1_Calculator\obj\Debug\Lab1_Calculator.csproj.GenerateResource.Cache
+G:\Facultate\SD\Lab1_Calculator\Lab1_Calculator\obj\Debug\Lab1_Calculator.exe
+G:\Facultate\SD\Lab1_Calculator\Lab1_Calculator\obj\Debug\Lab1_Calculator.pdb
+D:\Dropbox\_Facultate\SD\Laboratoare\Lab1_Calculator\Lab1_Calculator\bin\Debug\Lab1_Calculator.exe.config
+D:\Dropbox\_Facultate\SD\Laboratoare\Lab1_Calculator\Lab1_Calculator\obj\Debug\Lab1_Calculator.exe
+D:\Dropbox\_Facultate\SD\Laboratoare\Lab1_Calculator\Lab1_Calculator\obj\Debug\Lab1_Calculator.pdb
+D:\Dropbox\_Facultate\SD\Laboratoare\Lab1_Calculator\Lab1_Calculator\bin\Debug\Lab1_Calculator.exe
+D:\Dropbox\_Facultate\SD\Laboratoare\Lab1_Calculator\Lab1_Calculator\bin\Debug\Lab1_Calculator.pdb
+D:\Dropbox\_Facultate\SD\Laboratoare\Lab1_Calculator\Lab1_Calculator\obj\Debug\Lab1_Calculator.csprojResolveAssemblyReference.cache
+D:\Dropbox\_Facultate\SD\Laboratoare\Lab1_Calculator\Lab1_Calculator\obj\Debug\Lab1_Calculator.Form1.resources
+D:\Dropbox\_Facultate\SD\Laboratoare\Lab1_Calculator\Lab1_Calculator\obj\Debug\Lab1_Calculator.Properties.Resources.resources
+D:\Dropbox\_Facultate\SD\Laboratoare\Lab1_Calculator\Lab1_Calculator\obj\Debug\Lab1_Calculator.csproj.GenerateResource.Cache

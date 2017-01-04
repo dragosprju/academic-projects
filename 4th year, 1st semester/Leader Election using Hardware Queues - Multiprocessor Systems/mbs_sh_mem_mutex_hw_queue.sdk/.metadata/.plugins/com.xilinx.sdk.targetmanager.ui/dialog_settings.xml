@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<item value="design_1_wrapper.bit" key="design_1_wrapper_hw_platform_0-bitFile"/>
+	<item value="Local" key="design_1_wrapper_hw_platform_0-target"/>
+	<item value="C:\Users\andreis\Projects\mbs_sh_mem_mutex_hw_queue\mbs_sh_mem_mutex_hw_queue.sdk\mb1\Debug\mb1.elf" key="design_1_wrapper_hw_platform_0-microblaze_1-initElf"/>
+	<item value="Auto Detect" key="design_1_wrapper_hw_platform_0-device"/>
+	<item value="design_1_wrapper_hw_platform_0" key="programfpga.hwplatform"/>
+	<item value="C:\Users\andreis\Projects\mbs_sh_mem_mutex_hw_queue\mbs_sh_mem_mutex_hw_queue.sdk\mb0\Debug\mb0.elf" key="design_1_wrapper_hw_platform_0-microblaze_0-initElf"/>
+	<item value="false" key="design_1_wrapper_hw_platform_0-partial_bit"/>
+	<item value="design_1_wrapper.mmi" key="design_1_wrapper_hw_platform_0-bmmFile"/>
+	<item value="C:\Users\andreis\Projects\mbs_sh_mem_mutex_hw_queue\mbs_sh_mem_mutex_hw_queue.sdk\mb2\Debug\mb2.elf" key="design_1_wrapper_hw_platform_0-microblaze_2-initElf"/>
+</section>

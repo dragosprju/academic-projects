@@ -1,0 +1,4 @@
+19:11:04 INFO  : Launching XSDB server: xsdb.bat -interactive C:\Users\andreis\Projects\mbs_sh_mem_mutex_hw_queue\mbs_sh_mem_mutex_hw_queue.sdk\temp_xsdb_launch_script.tcl
+19:11:08 INFO  : XSDB server has started successfully.
+19:11:12 INFO  : Processing command line option -hwspec C:/Users/andreis/Projects/mbs_sh_mem_mutex_hw_queue/mbs_sh_mem_mutex_hw_queue.sdk/design_1_wrapper.hdf.
+19:17:12 INFO  : Connected to target on host '127.0.0.1' and port '3121'.

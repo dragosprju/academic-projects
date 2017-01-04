@@ -1,0 +1,5 @@
+D:\1306A\Lab4_NetRemoting\MathLibrary\bin\Debug\MathLibrary.dll
+D:\1306A\Lab4_NetRemoting\MathLibrary\bin\Debug\MathLibrary.pdb
+D:\1306A\Lab4_NetRemoting\MathLibrary\obj\Debug\MathLibrary.csprojResolveAssemblyReference.cache
+D:\1306A\Lab4_NetRemoting\MathLibrary\obj\Debug\MathLibrary.dll
+D:\1306A\Lab4_NetRemoting\MathLibrary\obj\Debug\MathLibrary.pdb

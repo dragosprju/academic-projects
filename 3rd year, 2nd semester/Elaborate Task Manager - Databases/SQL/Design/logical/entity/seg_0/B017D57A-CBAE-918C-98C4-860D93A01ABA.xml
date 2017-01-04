@@ -1,0 +1,88 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B017D57A-CBAE-918C-98C4-860D93A01ABA" name="Sarcina Eticheta">
+<createdBy>Dragos</createdBy>
+<createdTime>2016-04-21 14:12:27 UTC</createdTime>
+<comment> </comment>
+<commentInRDBMS> </commentInRDBMS>
+<generatorID>DDDFEB27-D03A-1D14-83B1-CE9F49063183</generatorID>
+<ownerDesignName>Design</ownerDesignName>
+<engineerTo>
+<item key="0546AC64-B64B-C3AC-729D-A70E457B5117" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID__Sarcina" id="6A4B2FED-EBA7-D972-7D9B-BD4F3F6FDAF5">
+<createdBy>Dragos</createdBy>
+<createdTime>2016-04-21 14:12:27 UTC</createdTime>
+<generatorID>43F9E4C4-264D-B467-7550-3C6266067821</generatorID>
+<ownerDesignName>Design</ownerDesignName>
+<engineerTo>
+<item key="0546AC64-B64B-C3AC-729D-A70E457B5117" value="true"/>
+</engineerTo>
+<referedAttribute>8C6248D1-47A7-D067-FE55-410FFCC03CAC</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID__Eticheta" id="54A85002-AB6C-F013-BF92-DC4AF30994C9">
+<createdBy>Dragos</createdBy>
+<createdTime>2016-04-21 14:12:27 UTC</createdTime>
+<generatorID>D9121A57-B868-E1DE-5B0C-1E8FD233618C</generatorID>
+<ownerDesignName>Design</ownerDesignName>
+<engineerTo>
+<item key="0546AC64-B64B-C3AC-729D-A70E457B5117" value="true"/>
+</engineerTo>
+<referedAttribute>FE423918-689F-D685-8DB4-5BF81C83F850</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID Sarcina" id="98600DBF-D437-1EAE-A3C8-A53206D5C31A">
+<createdBy>Dragos</createdBy>
+<createdTime>2016-04-21 14:12:38 UTC</createdTime>
+<ownerDesignName>Design</ownerDesignName>
+<engineerTo>
+<item key="0546AC64-B64B-C3AC-729D-A70E457B5117" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID Eticheta" id="F02FC61C-B95B-729B-88E0-5D24D02B2FAA">
+<createdBy>Dragos</createdBy>
+<createdTime>2016-04-21 14:12:53 UTC</createdTime>
+<ownerDesignName>Design</ownerDesignName>
+<engineerTo>
+<item key="0546AC64-B64B-C3AC-729D-A70E457B5117" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="A66DDB59-65E9-E0E2-D030-B3FC3ADB7BC5" name="Sarcina Eticheta PK">
+<createdBy>Dragos</createdBy>
+<createdTime>2016-04-21 14:12:27 UTC</createdTime>
+<generatorID>D5526DD9-72CA-F19E-783E-DE1993FCD778</generatorID>
+<ownerDesignName>Design</ownerDesignName>
+<engineerTo>
+<item key="0546AC64-B64B-C3AC-729D-A70E457B5117" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>6A4B2FED-EBA7-D972-7D9B-BD4F3F6FDAF5</attributeRef>
+<attributeRef>54A85002-AB6C-F013-BF92-DC4AF30994C9</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

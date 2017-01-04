@@ -1,0 +1,61 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="65482A4A-EEA7-4027-DDBA-288B3C0316B7" name="Notificare">
+<createdBy>Dragos</createdBy>
+<createdTime>2016-04-16 19:53:21 UTC</createdTime>
+<comment> </comment>
+<commentInRDBMS> </commentInRDBMS>
+<ownerDesignName>Design</ownerDesignName>
+<ordsAlias>table_5</ordsAlias>
+<shouldGeneratescript>true</shouldGeneratescript>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_Sarcina" id="4CFEEAA1-88D7-0424-0631-86E59FF0EA34">
+<createdBy>Dragos</createdBy>
+<createdTime>2016-04-16 19:54:39 UTC</createdTime>
+<ownerDesignName>Design</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CE535493-1EAF-11EF-22F8-5AD68055BF7E" referredColumn="2AB33460-E830-DE22-3347-35BF9518B280"/>
+</associations>
+</Column>
+<Column name="Data_notificare" id="FB562C88-17D4-EAAD-444F-7C388FD8B42E">
+<createdBy>Dragos</createdBy>
+<createdTime>2016-04-16 19:54:39 UTC</createdTime>
+<ownerDesignName>Design</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4F47A29E-1070-AC93-0FB7-9BB736FFA54C" name="Notificare__UN">
+<createdBy>Dragos</createdBy>
+<createdTime>2016-04-24 16:13:34 UTC</createdTime>
+<ownerDesignName>Design</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4CFEEAA1-88D7-0424-0631-86E59FF0EA34"/>
+<colUsage columnID="FB562C88-17D4-EAAD-444F-7C388FD8B42E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="60680EA3-C929-DD9A-933F-200C23742793" name="Notificare_Sarcina_FK">
+<createdBy>Dragos</createdBy>
+<createdTime>2016-04-16 19:54:39 UTC</createdTime>
+<ownerDesignName>Design</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4CFEEAA1-88D7-0424-0631-86E59FF0EA34"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,87 @@
+<html>
+<head>
+	
+	<link rel="stylesheet" href="{{ url_for('static', filename='css/bootstrap.min.css') }}">
+	<link rel="stylesheet" href="{{ url_for('static', filename='css/custom.css') }}">
+	<title>Standup</title>
+
+	<script type="text/javascript">
+	function redirect() {
+	  window.location.reload(false);
+	  return false;
+	}
+	</script>
+
+    {% if auto_refresh %}
+    <meta http-equiv="refresh" content="5">
+    {% endif %}
+
+</head>
+<body>
+	<script src="{{ url_for('static', filename='js/bootstrap.min.js') }}"></script>
+	<script src="{{ url_for('static', filename='js/jquery-3.1.1.min.js') }}"></script>
+
+	<div class="container">
+		<div class="row center-items">
+		<div class="col-xs-12 panel">
+			<div class="panel-heading" style="margin-bottom: -24px">
+                <h2><b>Standup</b> • Dashboard</h2>
+                <hr>
+			</div>
+
+			<div class="panel-body">
+				<b>Status: 
+				{% if connected %}
+				<span class="text-success">CONNECTED</span>
+				{% else %}
+				<span class="text-danger">DISCONNECTED</span>
+				{% endif %}
+				</b><br>
+				<b>Threshold:</b> {{ threshold }}</b>
+				<b>Bent:
+				{% if bent %}
+				<span class="text-danger">YES!!</span>
+				{% else %}
+				<span class="text-success">Nope</span>
+				{% endif %}
+				</b>
+
+				{% if error %}
+				<div class="alert alert-danger" style="margin-top: -10px">
+					<strong>Error:</strong> {{ error }}
+				</div>
+				{% endif %}
+				{% if success %}
+				<div class="alert alert-success" style="margin-top: -10px">
+					{{ success }}
+				</div>
+				{% endif %}
+                <br><br>
+
+                <b>Number of hours being straight and/or bent, in the last 7 days:</b>
+                <embed type="image/svg+xml" src="{{graph_data|safe}}" />
+                {% if bent %}
+                <audio autoplay>
+                	<source src="{{ url_for('static', filename='beep.mp3') }}" type="audio/mpeg">
+                </audio>
+                {% endif %}
+
+				<br><br>
+                <div class="pull-right">
+                    {% if auto_refresh %}
+                    <a href="/dashboard/auto-refresh" class="btn btn-success">Auto-refresh on</a>
+                    {% else %}
+                     <a href="/dashboard/auto-refresh" class="btn btn-danger">Auto-refresh off</a>
+                    {% endif %}
+                    <a href="logout" class="btn btn-danger">Logout</a>
+                </div>
+			</div>
+
+			<div class="panel-footer" style="background-color: white">
+				<!-- Empty but here for bottom spacing -->
+			</div>
+		</div>
+		</div>
+	</div>
+</body>
+</html>

@@ -1,0 +1,6 @@
+D:\Dropbox\_Facultate\SD\Laboratoare\Lab6_WebService_Employee\Lab6_WebService_Employee\bin\Lab6_WebService_Employee.dll.config
+D:\Dropbox\_Facultate\SD\Laboratoare\Lab6_WebService_Employee\Lab6_WebService_Employee\bin\Lab6_WebService_Employee.dll
+D:\Dropbox\_Facultate\SD\Laboratoare\Lab6_WebService_Employee\Lab6_WebService_Employee\bin\Lab6_WebService_Employee.pdb
+D:\Dropbox\_Facultate\SD\Laboratoare\Lab6_WebService_Employee\Lab6_WebService_Employee\obj\Debug\Lab6_WebService_Employee.csprojResolveAssemblyReference.cache
+D:\Dropbox\_Facultate\SD\Laboratoare\Lab6_WebService_Employee\Lab6_WebService_Employee\obj\Debug\Lab6_WebService_Employee.dll
+D:\Dropbox\_Facultate\SD\Laboratoare\Lab6_WebService_Employee\Lab6_WebService_Employee\obj\Debug\Lab6_WebService_Employee.pdb

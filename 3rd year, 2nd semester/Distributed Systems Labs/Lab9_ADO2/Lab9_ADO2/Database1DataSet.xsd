@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="Database1DataSet" targetNamespace="http://tempuri.org/Database1DataSet.xsd" xmlns:mstns="http://tempuri.org/Database1DataSet.xsd" xmlns="http://tempuri.org/Database1DataSet.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="Database1ConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="Database1ConnectionString (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.Lab9_ADO2.Properties.Settings.GlobalReference.Default.Database1ConnectionString" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="AutorCarteTableAdapter" GeneratorDataComponentClassName="AutorCarteTableAdapter" Name="AutorCarte" UserDataComponentName="AutorCarteTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="Database1ConnectionString (Settings)" DbObjectName="dbo.AutorCarte" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT ID_Autor, ID_Carte, Nume_Carte, Nume_Autor FROM dbo.AutorCarte</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="ID_Autor" DataSetColumn="ID_Autor" />
+              <Mapping SourceColumn="ID_Carte" DataSetColumn="ID_Carte" />
+              <Mapping SourceColumn="Nume_Carte" DataSetColumn="Nume_Carte" />
+              <Mapping SourceColumn="Nume_Autor" DataSetColumn="Nume_Autor" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="Database1DataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="True" msprop:Generator_DataSetName="Database1DataSet" msprop:Generator_UserDSName="Database1DataSet">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="AutorCarte" msprop:Generator_TableClassName="AutorCarteDataTable" msprop:Generator_TableVarName="tableAutorCarte" msprop:Generator_TablePropName="AutorCarte" msprop:Generator_RowDeletingName="AutorCarteRowDeleting" msprop:Generator_RowChangingName="AutorCarteRowChanging" msprop:Generator_RowEvHandlerName="AutorCarteRowChangeEventHandler" msprop:Generator_RowDeletedName="AutorCarteRowDeleted" msprop:Generator_UserTableName="AutorCarte" msprop:Generator_RowChangedName="AutorCarteRowChanged" msprop:Generator_RowEvArgName="AutorCarteRowChangeEvent" msprop:Generator_RowClassName="AutorCarteRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ID_Autor" msprop:Generator_ColumnVarNameInTable="columnID_Autor" msprop:Generator_ColumnPropNameInRow="ID_Autor" msprop:Generator_ColumnPropNameInTable="ID_AutorColumn" msprop:Generator_UserColumnName="ID_Autor" type="xs:int" />
+              <xs:element name="ID_Carte" msprop:Generator_ColumnVarNameInTable="columnID_Carte" msprop:Generator_ColumnPropNameInRow="ID_Carte" msprop:Generator_ColumnPropNameInTable="ID_CarteColumn" msprop:Generator_UserColumnName="ID_Carte" type="xs:int" />
+              <xs:element name="Nume_Carte" msprop:Generator_ColumnVarNameInTable="columnNume_Carte" msprop:Generator_ColumnPropNameInRow="Nume_Carte" msprop:Generator_ColumnPropNameInTable="Nume_CarteColumn" msprop:Generator_UserColumnName="Nume_Carte" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Nume_Autor" msprop:Generator_ColumnVarNameInTable="columnNume_Autor" msprop:Generator_ColumnPropNameInRow="Nume_Autor" msprop:Generator_ColumnPropNameInTable="Nume_AutorColumn" msprop:Generator_UserColumnName="Nume_Autor" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="256" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:AutorCarte" />
+      <xs:field xpath="mstns:ID_Autor" />
+      <xs:field xpath="mstns:ID_Carte" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

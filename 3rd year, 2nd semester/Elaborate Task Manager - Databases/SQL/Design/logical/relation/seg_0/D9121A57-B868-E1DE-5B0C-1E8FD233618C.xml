@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Sarcina_Eticheta_2_FK" directorySegmentName="seg_0" id="D9121A57-B868-E1DE-5B0C-1E8FD233618C">
+<createdBy>Dragos</createdBy>
+<createdTime>2016-04-21 14:12:27 UTC</createdTime>
+<generatorID>ABBABCB4-EAC3-0D35-B5A2-ADEC5F62387B</generatorID>
+<ownerDesignName>Design</ownerDesignName>
+<engineerTo>
+<item key="0546AC64-B64B-C3AC-729D-A70E457B5117" value="true"/>
+</engineerTo>
+<sourcePk>4EAA7D43-9CC7-5544-9BF4-68CE338FB545</sourcePk>
+<identifying>true</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>9C604851-3FD2-A08C-D16C-2D707D610073</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>B017D57A-CBAE-918C-98C4-860D93A01ABA</targetEntity>
+<transferable>true</transferable>
+<deleteRule>CASCADE</deleteRule>
+</Relation>

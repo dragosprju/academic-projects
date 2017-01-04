@@ -1,0 +1,15 @@
+D:\Dropbox\_Facultate\SD\Laboratoare\Lab5_NetRemoting2_PingPong\PingClient2\bin\Debug\PingClient2.exe
+D:\Dropbox\_Facultate\SD\Laboratoare\Lab5_NetRemoting2_PingPong\PingClient2\bin\Debug\PingClient2.pdb
+D:\Dropbox\_Facultate\SD\Laboratoare\Lab5_NetRemoting2_PingPong\PingClient2\bin\Debug\PingPong.dll
+D:\Dropbox\_Facultate\SD\Laboratoare\Lab5_NetRemoting2_PingPong\PingClient2\bin\Debug\PingPong.pdb
+D:\Dropbox\_Facultate\SD\Laboratoare\Lab5_NetRemoting2_PingPong\PingClient2\obj\Debug\PingClient2.csprojResolveAssemblyReference.cache
+D:\Dropbox\_Facultate\SD\Laboratoare\Lab5_NetRemoting2_PingPong\PingClient2\obj\Debug\MainWindow.g.cs
+D:\Dropbox\_Facultate\SD\Laboratoare\Lab5_NetRemoting2_PingPong\PingClient2\obj\Debug\App.g.cs
+D:\Dropbox\_Facultate\SD\Laboratoare\Lab5_NetRemoting2_PingPong\PingClient2\obj\Debug\PingClient2_MarkupCompile.cache
+D:\Dropbox\_Facultate\SD\Laboratoare\Lab5_NetRemoting2_PingPong\PingClient2\obj\Debug\PingClient2_MarkupCompile.lref
+D:\Dropbox\_Facultate\SD\Laboratoare\Lab5_NetRemoting2_PingPong\PingClient2\obj\Debug\MainWindow.baml
+D:\Dropbox\_Facultate\SD\Laboratoare\Lab5_NetRemoting2_PingPong\PingClient2\obj\Debug\PingClient2.g.resources
+D:\Dropbox\_Facultate\SD\Laboratoare\Lab5_NetRemoting2_PingPong\PingClient2\obj\Debug\PingClient2.Properties.Resources.resources
+D:\Dropbox\_Facultate\SD\Laboratoare\Lab5_NetRemoting2_PingPong\PingClient2\obj\Debug\PingClient2.csproj.GenerateResource.Cache
+D:\Dropbox\_Facultate\SD\Laboratoare\Lab5_NetRemoting2_PingPong\PingClient2\obj\Debug\PingClient2.exe
+D:\Dropbox\_Facultate\SD\Laboratoare\Lab5_NetRemoting2_PingPong\PingClient2\obj\Debug\PingClient2.pdb

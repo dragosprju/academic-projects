@@ -1,0 +1,92 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="DBA4C3CD-1EF6-DDC3-6E12-83487B429D93" name="Utilizator">
+<createdBy>Dragos</createdBy>
+<createdTime>2016-04-21 14:12:27 UTC</createdTime>
+<comment> </comment>
+<commentInRDBMS> </commentInRDBMS>
+<generatorID>5BA03763-9EE7-D5C7-0168-400DA9A14BF7</generatorID>
+<ownerDesignName>Design</ownerDesignName>
+<engineerTo>
+<item key="0546AC64-B64B-C3AC-729D-A70E457B5117" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID Responsabil" id="42CFCE06-25F4-DEBE-532B-B9D5EECFF135">
+<createdBy>Dragos</createdBy>
+<createdTime>2016-04-21 14:12:27 UTC</createdTime>
+<generatorID>08A09463-0A0A-F0E4-315B-082A2F40CC8E</generatorID>
+<ownerDesignName>Design</ownerDesignName>
+<engineerTo>
+<item key="0546AC64-B64B-C3AC-729D-A70E457B5117" value="true"/>
+</engineerTo>
+<referedAttribute>D7E149B5-095F-5AEC-8042-6FB8A9BEAB01</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Nume Utilizator" id="32CE228A-B203-94C1-A2CE-09FC891580F1">
+<createdBy>Dragos</createdBy>
+<createdTime>2016-04-21 14:12:27 UTC</createdTime>
+<generatorID>363CCF23-5A2C-C286-C2BB-F777F308D8F9</generatorID>
+<ownerDesignName>Design</ownerDesignName>
+<engineerTo>
+<item key="0546AC64-B64B-C3AC-729D-A70E457B5117" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>32</dataTypeSize>
+<ownDataTypeParameters>32,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Parola" id="2B71E72C-792F-B80C-55B6-D11B973C2DA0">
+<createdBy>Dragos</createdBy>
+<createdTime>2016-04-21 14:12:27 UTC</createdTime>
+<generatorID>12D82E8A-2A4D-29D1-41BB-5D006E702C65</generatorID>
+<ownerDesignName>Design</ownerDesignName>
+<engineerTo>
+<item key="0546AC64-B64B-C3AC-729D-A70E457B5117" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>128</dataTypeSize>
+<ownDataTypeParameters>128,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="D68CF4E7-7DDC-E9D5-DACF-8D6934675B71" name="Utilizator Nume Utilizator UN">
+<createdBy>Dragos</createdBy>
+<createdTime>2016-04-21 14:12:27 UTC</createdTime>
+<generatorID>E9D58503-1A30-FC32-6560-34126DB6AA3C</generatorID>
+<ownerDesignName>Design</ownerDesignName>
+<engineerTo>
+<item key="0546AC64-B64B-C3AC-729D-A70E457B5117" value="true"/>
+</engineerTo>
+<usedAttributes>
+<attributeRef>32CE228A-B203-94C1-A2CE-09FC891580F1</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="E654FC29-5444-0023-D9DB-6022EA9F15FC" name="Utilizator ID Responsabil UN">
+<createdBy>Dragos</createdBy>
+<createdTime>2016-04-21 14:12:27 UTC</createdTime>
+<generatorID>546A50F5-CD40-265A-AC08-29A28F49B1C9</generatorID>
+<ownerDesignName>Design</ownerDesignName>
+<engineerTo>
+<item key="0546AC64-B64B-C3AC-729D-A70E457B5117" value="true"/>
+</engineerTo>
+<usedAttributes>
+<attributeRef>42CFCE06-25F4-DEBE-532B-B9D5EECFF135</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

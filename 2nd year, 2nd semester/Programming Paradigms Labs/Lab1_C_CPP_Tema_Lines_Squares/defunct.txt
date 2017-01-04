@@ -1,0 +1,54 @@
+void deseneazaLinie(int x1, int y1, int x2, int y2) {
+	int i, j;
+	float DELTA_LINIE;
+	if (verificaCoordLinie(x1,y1,x2,y2) == 1) {
+		int aux;
+		aux = x1;
+		x1 = x2;
+		x2 = aux;
+		aux = y1;
+		y1 = y2;
+		y2 = aux;
+	}
+	else if (verificaCoordLinie(x1,y1,x2,y2) == -1){
+		fprintf(stderr, "[E][DESENEAZALINIE] Coordonatele sunt gresite. Respectati conditia: x1 < x2, y1 < y2!\n");
+		return;
+	}
+	for (i=1; i<x1; i++)
+		printf("\n");
+	// (i-x1)/(j-y1) = (x2-x1)/(y2-y1)
+	float membru_drept;
+	if (y2 == y1) // Evitam impartirea la 0
+		membru_drept = 0;
+	else {
+		membru_drept = (x2-(float)x1)/(y2-y1);
+		DELTA_LINIE = membru_drept / CT_DELTA_LINIE; // Calcul automat de delta
+	}
+	for (i=0; i<=x2; i++) {
+		for (j=0; j<y1; j++)
+			printf(" ");
+		for (j=y1; j<=y2; j++) {
+			float membru_stang;
+			if (j == y1) // Evitam impartirea la 0
+				if (i == x1) // Mai putin cand (i,j) sunt (x1,y1)
+					membru_stang = membru_drept;
+				else
+					membru_stang = 0;
+			else
+				membru_stang = (i-(float)x1)/(j-y1);
+			if ((membru_stang >= (membru_drept - DELTA_LINIE)) && (membru_stang <= (membru_drept + DELTA_LINIE)))
+				printf("*");
+			else
+				printf(" ");
+		}
+		printf("\n");
+	}
+}
+
+int verificaCoordLinie(int x1, int y1, int x2, int y2) {
+	if ((x1 < x2 && y1 > y2) || (x1 > x2 && y1 < y2))
+		return -1;
+	if (x1 > x2 && y1 > y2)
+		return 1;
+	return 0;
+}

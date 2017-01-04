@@ -1,0 +1,10 @@
+<library>
+	<books>
+		<book id = "5">
+			<title>Ion</title>
+			<author>J. K. Rowling</author>
+		</book>
+	</books>
+	<lending>
+	</lending>
+</library>

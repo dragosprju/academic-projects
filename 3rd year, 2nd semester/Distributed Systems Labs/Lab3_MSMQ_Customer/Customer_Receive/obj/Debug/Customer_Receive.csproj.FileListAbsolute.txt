@@ -1,0 +1,11 @@
+D:\Dropbox\_Facultate\SD\Laboratoare\Lab3_MSMQ_Customer\Customer_Receive\bin\Debug\Customer_Receive.exe.config
+D:\Dropbox\_Facultate\SD\Laboratoare\Lab3_MSMQ_Customer\Customer_Receive\bin\Debug\Customer_Receive.exe
+D:\Dropbox\_Facultate\SD\Laboratoare\Lab3_MSMQ_Customer\Customer_Receive\bin\Debug\Customer_Receive.pdb
+D:\Dropbox\_Facultate\SD\Laboratoare\Lab3_MSMQ_Customer\Customer_Receive\bin\Debug\CustomerLibrary.dll
+D:\Dropbox\_Facultate\SD\Laboratoare\Lab3_MSMQ_Customer\Customer_Receive\bin\Debug\CustomerLibrary.pdb
+D:\Dropbox\_Facultate\SD\Laboratoare\Lab3_MSMQ_Customer\Customer_Receive\obj\Debug\Customer_Receive.csprojResolveAssemblyReference.cache
+D:\Dropbox\_Facultate\SD\Laboratoare\Lab3_MSMQ_Customer\Customer_Receive\obj\Debug\Customer_Receive.ReceiveForm.resources
+D:\Dropbox\_Facultate\SD\Laboratoare\Lab3_MSMQ_Customer\Customer_Receive\obj\Debug\Customer_Receive.Properties.Resources.resources
+D:\Dropbox\_Facultate\SD\Laboratoare\Lab3_MSMQ_Customer\Customer_Receive\obj\Debug\Customer_Receive.csproj.GenerateResource.Cache
+D:\Dropbox\_Facultate\SD\Laboratoare\Lab3_MSMQ_Customer\Customer_Receive\obj\Debug\Customer_Receive.exe
+D:\Dropbox\_Facultate\SD\Laboratoare\Lab3_MSMQ_Customer\Customer_Receive\obj\Debug\Customer_Receive.pdb

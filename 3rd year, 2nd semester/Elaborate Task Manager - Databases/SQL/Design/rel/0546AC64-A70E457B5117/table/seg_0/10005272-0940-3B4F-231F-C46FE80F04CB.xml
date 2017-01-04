@@ -1,0 +1,241 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="10005272-0940-3B4F-231F-C46FE80F04CB" name="Sarcina">
+<createdBy>Dragos</createdBy>
+<createdTime>2016-04-16 19:14:30 UTC</createdTime>
+<comment> </comment>
+<commentInRDBMS> </commentInRDBMS>
+<ownerDesignName>Design</ownerDesignName>
+<ordsAlias>table_4</ordsAlias>
+<beforeCreate>DROP SEQUENCE SARCINA_ID_SEQ;</beforeCreate>
+<shouldGeneratescript>true</shouldGeneratescript>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="2AB33460-E830-DE22-3347-35BF9518B280">
+<createdBy>Dragos</createdBy>
+<createdTime>2016-04-16 19:16:02 UTC</createdTime>
+<ownerDesignName>Design</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Descriere" id="311630F5-6F28-3BFC-F5E5-4DCCCD6C1C82">
+<createdBy>Dragos</createdBy>
+<createdTime>2016-04-16 19:16:02 UTC</createdTime>
+<ownerDesignName>Design</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>256</dataTypeSize>
+<ownDataTypeParameters>256,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Prioritate" id="4E13E98C-7387-5830-6F3D-DEF28DDDE436">
+<createdBy>Dragos</createdBy>
+<createdTime>2016-04-16 19:16:02 UTC</createdTime>
+<ownerDesignName>Design</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_Proiect" id="EAFF4335-B0F3-EE41-5622-5A1DC005A1CF">
+<createdBy>Dragos</createdBy>
+<createdTime>2016-04-16 19:19:52 UTC</createdTime>
+<ownerDesignName>Design</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FD36390F-95D1-5FCC-F6DB-F996BA5AF4BB" referredColumn="F21FADE5-4795-4255-5837-5261CD0758C0"/>
+</associations>
+</Column>
+<Column name="ID_Sarcina_Parinte" id="F2F04D4E-0F51-A9F3-62C2-B03C484E75A5">
+<createdBy>Dragos</createdBy>
+<createdTime>2016-04-16 19:19:52 UTC</createdTime>
+<ownerDesignName>Design</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="472CF2E0-97A0-FECF-8982-5D1BE80A30EF" referredColumn="2AB33460-E830-DE22-3347-35BF9518B280"/>
+</associations>
+</Column>
+<Column name="ID_Utilizator" id="CECDB912-CE14-F20E-6A16-B73E650F2E6A">
+<createdBy>Dragos</createdBy>
+<createdTime>2016-04-17 12:53:18 UTC</createdTime>
+<ownerDesignName>Design</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6EB82828-9746-562E-AE94-C98356B0CAD3" referredColumn="BC6C1CC9-EA09-5857-B7E6-3194402F15D1"/>
+</associations>
+</Column>
+<Column name="ID_Responsabil" id="0F145BBF-23A1-9BCC-B7FA-5FA6FBFBBE4C">
+<createdBy>Dragos</createdBy>
+<createdTime>2016-04-16 21:21:34 UTC</createdTime>
+<ownerDesignName>Design</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="869DE637-F70E-DB81-322C-FEEA09CC48D7" referredColumn="7A1FBBDC-112B-BB06-16D0-387299FB0AF8"/>
+</associations>
+</Column>
+<Column name="Data_crearii" id="D4E0BB74-5D61-7775-FA22-8FA08DF7B6DA">
+<createdBy>Dragos</createdBy>
+<createdTime>2016-04-16 19:19:52 UTC</createdTime>
+<ownerDesignName>Design</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<usesDefaultValue>true</usesDefaultValue>
+<defaultValue>SYSDATE</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Data_terminarii" id="85822955-3973-12B7-C1FC-1B5DA701CADB">
+<createdBy>Dragos</createdBy>
+<createdTime>2016-04-16 19:19:52 UTC</createdTime>
+<ownerDesignName>Design</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Recurenta" id="84BD28F3-E691-A763-45FF-64BB26DBF342">
+<createdBy>Dragos</createdBy>
+<createdTime>2016-04-16 19:19:52 UTC</createdTime>
+<ownerDesignName>Design</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT049</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,9,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Data_limita" id="69027053-D884-05A7-8620-352CAA560D79">
+<createdBy>Dragos</createdBy>
+<createdTime>2016-04-16 19:19:52 UTC</createdTime>
+<ownerDesignName>Design</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Data_prevazuta" id="6883D4C8-67C8-29E2-32DA-7E31DB0EDD9D">
+<createdBy>Dragos</createdBy>
+<createdTime>2016-04-16 19:19:52 UTC</createdTime>
+<ownerDesignName>Design</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Durata_estimata" id="A4330C5F-36AE-2306-363F-AB38546EA77E">
+<createdBy>Dragos</createdBy>
+<createdTime>2016-04-16 19:19:52 UTC</createdTime>
+<ownerDesignName>Design</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT049</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,9,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6DCAB213-C751-3CDB-2ED0-AE8C55B50BC5" name="Sarcina_PK">
+<createdBy>Dragos</createdBy>
+<createdTime>2016-04-16 19:16:02 UTC</createdTime>
+<ownerDesignName>Design</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2AB33460-E830-DE22-3347-35BF9518B280"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8C309053-D7F6-573B-A993-0931CC2ABE52" name="Sarcina_Proiect_FK">
+<createdBy>Dragos</createdBy>
+<createdTime>2016-04-16 19:52:36 UTC</createdTime>
+<ownerDesignName>Design</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EAFF4335-B0F3-EE41-5622-5A1DC005A1CF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="ED94F93C-97C2-C659-B64E-F07D529656C9" name="Sarcina_Parinte_FK">
+<createdBy>Dragos</createdBy>
+<createdTime>2016-04-16 22:16:49 UTC</createdTime>
+<ownerDesignName>Design</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F2F04D4E-0F51-A9F3-62C2-B03C484E75A5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F3594B16-5429-AC58-A625-DBD4896D2583" name="Sarcina_Responsabil_FK">
+<createdBy>Dragos</createdBy>
+<createdTime>2016-04-20 01:40:01 UTC</createdTime>
+<ownerDesignName>Design</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0F145BBF-23A1-9BCC-B7FA-5FA6FBFBBE4C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F14C3CD1-D647-29F6-FEF5-FAC978EC3C25" name="Sarcina_Utilizator_FK">
+<createdBy>Dragos</createdBy>
+<createdTime>2016-04-20 01:41:51 UTC</createdTime>
+<ownerDesignName>Design</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CECDB912-CE14-F20E-6A16-B73E650F2E6A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+<tableCheckConstraints itemClass="oracle.dbtools.crest.model.design.constraint.TableLevelConstraint">
+<tableCheckConstraint name="Sarcina_Prioritate_CK" directorySegmentName="seg_0" id="ED9F2106-46C1-B009-AA62-4B7D2CF13FEA">
+<createdBy>Dragos</createdBy>
+<createdTime>2016-04-16 22:38:35 UTC</createdTime>
+<ownerDesignName>Design</ownerDesignName>
+<rule>Prioritate &gt; 0</rule>
+</tableCheckConstraint>
+<tableCheckConstraint name="Sarcina_ID_Sarcina_Parinte_CK" directorySegmentName="seg_0" id="83355547-EECB-150D-DDAA-7C8CE5DDFC02">
+<createdBy>Dragos</createdBy>
+<createdTime>2016-04-24 14:45:33 UTC</createdTime>
+<ownerDesignName>Design</ownerDesignName>
+<rule>id &lt;&gt; id_sarcina_parinte</rule>
+</tableCheckConstraint>
+</tableCheckConstraints>
+</Table>

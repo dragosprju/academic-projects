@@ -1,0 +1,14 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="CE535493-1EAF-11EF-22F8-5AD68055BF7E" containerWithKeyObject="65482A4A-EEA7-4027-DDBA-288B3C0316B7" localFKIndex="60680EA3-C929-DD9A-933F-200C23742793" name="Notificare_Sarcina_FK">
+<createdBy>Dragos</createdBy>
+<createdTime>2016-04-16 19:54:39 UTC</createdTime>
+<ownerDesignName>Design</ownerDesignName>
+<deleteRule>CASCADE</deleteRule>
+<referredTableID>10005272-0940-3B4F-231F-C46FE80F04CB</referredTableID>
+<keyObject>6DCAB213-C751-3CDB-2ED0-AE8C55B50BC5</keyObject>
+<referredKeyID>6DCAB213-C751-3CDB-2ED0-AE8C55B50BC5</referredKeyID>
+<mandatory>true</mandatory>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

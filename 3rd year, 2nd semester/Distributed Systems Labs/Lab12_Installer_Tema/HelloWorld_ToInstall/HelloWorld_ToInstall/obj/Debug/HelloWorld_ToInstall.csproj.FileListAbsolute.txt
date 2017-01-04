@@ -1,0 +1,17 @@
+D:\Lab12_Installer\HelloWorld_ToInstall\HelloWorld_ToInstall\bin\Debug\HelloWorld_ToInstall.exe
+D:\Lab12_Installer\HelloWorld_ToInstall\HelloWorld_ToInstall\bin\Debug\HelloWorld_ToInstall.pdb
+D:\Lab12_Installer\HelloWorld_ToInstall\HelloWorld_ToInstall\obj\Debug\HelloWorld_ToInstall.csprojResolveAssemblyReference.cache
+D:\Lab12_Installer\HelloWorld_ToInstall\HelloWorld_ToInstall\obj\Debug\HelloWorld_ToInstall.exe
+D:\Lab12_Installer\HelloWorld_ToInstall\HelloWorld_ToInstall\obj\Debug\HelloWorld_ToInstall.pdb
+D:\Dropbox\_Facultate\SD\Laboratoare\Lab12_Installer\HelloWorld_ToInstall\HelloWorld_ToInstall\obj\Debug\HelloWorld_ToInstall.exe
+D:\Dropbox\_Facultate\SD\Laboratoare\Lab12_Installer\HelloWorld_ToInstall\HelloWorld_ToInstall\obj\Debug\HelloWorld_ToInstall.pdb
+E:\Dropbox\_Facultate\SD\Laboratoare\Lab12_Installer\HelloWorld_ToInstall\HelloWorld_ToInstall\obj\Debug\HelloWorld_ToInstall.exe
+E:\Dropbox\_Facultate\SD\Laboratoare\Lab12_Installer\HelloWorld_ToInstall\HelloWorld_ToInstall\obj\Debug\HelloWorld_ToInstall.pdb
+E:\Dropbox\_Facultate\SD\Laboratoare\Lab12_Installer\HelloWorld_ToInstall\HelloWorld_ToInstall\bin\Debug\HelloWorld_ToInstall.exe.config
+E:\Dropbox\_Facultate\SD\Laboratoare\Lab12_Installer\HelloWorld_ToInstall\HelloWorld_ToInstall\bin\Debug\HelloWorld_ToInstall.exe
+E:\Dropbox\_Facultate\SD\Laboratoare\Lab12_Installer\HelloWorld_ToInstall\HelloWorld_ToInstall\bin\Debug\HelloWorld_ToInstall.pdb
+E:\Dropbox\_Facultate\SD\Laboratoare\Lab12_Installer_Tema\HelloWorld_ToInstall\HelloWorld_ToInstall\bin\Debug\HelloWorld_ToInstall.exe.config
+E:\Dropbox\_Facultate\SD\Laboratoare\Lab12_Installer_Tema\HelloWorld_ToInstall\HelloWorld_ToInstall\bin\Debug\HelloWorld_ToInstall.exe
+E:\Dropbox\_Facultate\SD\Laboratoare\Lab12_Installer_Tema\HelloWorld_ToInstall\HelloWorld_ToInstall\bin\Debug\HelloWorld_ToInstall.pdb
+E:\Dropbox\_Facultate\SD\Laboratoare\Lab12_Installer_Tema\HelloWorld_ToInstall\HelloWorld_ToInstall\obj\Debug\HelloWorld_ToInstall.exe
+E:\Dropbox\_Facultate\SD\Laboratoare\Lab12_Installer_Tema\HelloWorld_ToInstall\HelloWorld_ToInstall\obj\Debug\HelloWorld_ToInstall.pdb

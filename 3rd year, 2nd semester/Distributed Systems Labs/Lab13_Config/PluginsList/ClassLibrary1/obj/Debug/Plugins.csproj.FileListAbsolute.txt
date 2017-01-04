@@ -1,0 +1,9 @@
+D:\Lab13_Config\PluginsList\ClassLibrary1\bin\Debug\ClassLibrary1.dll
+D:\Lab13_Config\PluginsList\ClassLibrary1\bin\Debug\ClassLibrary1.pdb
+D:\Lab13_Config\PluginsList\ClassLibrary1\obj\Debug\ClassLibrary1.dll
+D:\Lab13_Config\PluginsList\ClassLibrary1\obj\Debug\ClassLibrary1.pdb
+E:\Dropbox\_Facultate\SD\Laboratoare\Lab13_Config\PluginsList\ClassLibrary1\bin\Debug\ClassLibrary1.dll
+E:\Dropbox\_Facultate\SD\Laboratoare\Lab13_Config\PluginsList\ClassLibrary1\bin\Debug\ClassLibrary1.pdb
+E:\Dropbox\_Facultate\SD\Laboratoare\Lab13_Config\PluginsList\ClassLibrary1\obj\Debug\Plugins.csprojResolveAssemblyReference.cache
+E:\Dropbox\_Facultate\SD\Laboratoare\Lab13_Config\PluginsList\ClassLibrary1\obj\Debug\ClassLibrary1.dll
+E:\Dropbox\_Facultate\SD\Laboratoare\Lab13_Config\PluginsList\ClassLibrary1\obj\Debug\ClassLibrary1.pdb

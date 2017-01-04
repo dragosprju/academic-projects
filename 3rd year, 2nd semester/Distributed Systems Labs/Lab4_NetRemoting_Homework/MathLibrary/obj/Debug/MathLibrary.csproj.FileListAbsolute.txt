@@ -1,0 +1,13 @@
+D:\1306A\Lab4_NetRemoting\MathLibrary\bin\Debug\MathLibrary.dll
+D:\1306A\Lab4_NetRemoting\MathLibrary\bin\Debug\MathLibrary.pdb
+D:\1306A\Lab4_NetRemoting\MathLibrary\obj\Debug\MathLibrary.csprojResolveAssemblyReference.cache
+D:\1306A\Lab4_NetRemoting\MathLibrary\obj\Debug\MathLibrary.dll
+D:\1306A\Lab4_NetRemoting\MathLibrary\obj\Debug\MathLibrary.pdb
+D:\1306A\Lab4_NetRemoting_Configured\MathLibrary\bin\Debug\MathLibrary.dll
+D:\1306A\Lab4_NetRemoting_Configured\MathLibrary\bin\Debug\MathLibrary.pdb
+D:\1306A\Lab4_NetRemoting_Configured\MathLibrary\obj\Debug\MathLibrary.dll
+D:\1306A\Lab4_NetRemoting_Configured\MathLibrary\obj\Debug\MathLibrary.pdb
+F:\Facultate\SD\Laboratoare\Lab4_NetRemoting_Homework\MathLibrary\bin\Debug\MathLibrary.dll
+F:\Facultate\SD\Laboratoare\Lab4_NetRemoting_Homework\MathLibrary\bin\Debug\MathLibrary.pdb
+F:\Facultate\SD\Laboratoare\Lab4_NetRemoting_Homework\MathLibrary\obj\Debug\MathLibrary.dll
+F:\Facultate\SD\Laboratoare\Lab4_NetRemoting_Homework\MathLibrary\obj\Debug\MathLibrary.pdb

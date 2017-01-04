@@ -1,0 +1,15 @@
+D:\Dropbox\_Facultate\SD\Laboratoare\Lab8_AnalogClock\Lab8_AnalogClock\obj\Debug\Lab8_AnalogClock.Properties.Resources.resources
+D:\Dropbox\_Facultate\SD\Laboratoare\Lab8_AnalogClock\Lab8_AnalogClock\obj\Debug\Lab8_AnalogClock.csproj.GenerateResource.Cache
+D:\Dropbox\_Facultate\SD\Laboratoare\Lab8_AnalogClock\Lab8_AnalogClock\bin\Debug\Lab8_AnalogClock.exe
+D:\Dropbox\_Facultate\SD\Laboratoare\Lab8_AnalogClock\Lab8_AnalogClock\bin\Debug\Lab8_AnalogClock.pdb
+D:\Dropbox\_Facultate\SD\Laboratoare\Lab8_AnalogClock\Lab8_AnalogClock\obj\Debug\Lab8_AnalogClock.exe
+D:\Dropbox\_Facultate\SD\Laboratoare\Lab8_AnalogClock\Lab8_AnalogClock\obj\Debug\Lab8_AnalogClock.pdb
+D:\Dropbox\_Facultate\SD\Laboratoare\Lab8_AnalogClock\Lab8_AnalogClock\obj\Debug\Lab8_AnalogClock.Form1.resources
+D:\Lab8_AnalogClock\obj\Debug\Lab8_AnalogClock.exe
+D:\Lab8_AnalogClock\obj\Debug\Lab8_AnalogClock.pdb
+D:\Lab8_AnalogClock\bin\Debug\Lab8_AnalogClock.exe
+D:\Lab8_AnalogClock\bin\Debug\Lab8_AnalogClock.pdb
+D:\Lab8_AnalogClock\obj\Debug\Lab8_AnalogClock.csprojResolveAssemblyReference.cache
+D:\Lab8_AnalogClock\obj\Debug\Lab8_AnalogClock.Form1.resources
+D:\Lab8_AnalogClock\obj\Debug\Lab8_AnalogClock.Properties.Resources.resources
+D:\Lab8_AnalogClock\obj\Debug\Lab8_AnalogClock.csproj.GenerateResource.Cache

@@ -1,0 +1,16 @@
+D:\Lab11_I18N\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe
+D:\Lab11_I18N\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.pdb
+D:\Lab11_I18N\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\en-US\WindowsFormsApplication1.resources.dll
+D:\Lab11_I18N\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\ro-RO\WindowsFormsApplication1.resources.dll
+D:\Lab11_I18N\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.csprojResolveAssemblyReference.cache
+D:\Lab11_I18N\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Form1.resources
+D:\Lab11_I18N\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Properties.Resources.resources
+D:\Lab11_I18N\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.csproj.GenerateResource.Cache
+D:\Lab11_I18N\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\en-US\WindowsFormsApplication1.resources.dll
+D:\Lab11_I18N\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\ro-RO\WindowsFormsApplication1.resources.dll
+D:\Lab11_I18N\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.exe
+D:\Lab11_I18N\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.pdb
+D:\Lab11_I18N\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.resources.en-US.resources
+D:\Lab11_I18N\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.resources.ro-RO.resources
+D:\Dropbox\_Facultate\SD\Laboratoare\Lab11_I18N_Tema\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.exe
+D:\Dropbox\_Facultate\SD\Laboratoare\Lab11_I18N_Tema\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.pdb

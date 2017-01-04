@@ -1,0 +1,9 @@
+D:\Dropbox\_Facultate\SD\Laboratoare\Lab3_MSMQ_LiveNotepad\bin\Debug\Lab3_MSMQ_LiveNotepad.exe
+D:\Dropbox\_Facultate\SD\Laboratoare\Lab3_MSMQ_LiveNotepad\bin\Debug\Lab3_MSMQ_LiveNotepad.exe.config
+D:\Dropbox\_Facultate\SD\Laboratoare\Lab3_MSMQ_LiveNotepad\obj\Debug\Lab3_MSMQ_LiveNotepad.LiveNotepadForm.resources
+D:\Dropbox\_Facultate\SD\Laboratoare\Lab3_MSMQ_LiveNotepad\obj\Debug\Lab3_MSMQ_LiveNotepad.Properties.Resources.resources
+D:\Dropbox\_Facultate\SD\Laboratoare\Lab3_MSMQ_LiveNotepad\obj\Debug\Lab3_MSMQ_LiveNotepad.csproj.GenerateResource.Cache
+D:\Dropbox\_Facultate\SD\Laboratoare\Lab3_MSMQ_LiveNotepad\obj\Debug\Lab3_MSMQ_LiveNotepad.exe
+D:\Dropbox\_Facultate\SD\Laboratoare\Lab3_MSMQ_LiveNotepad\obj\Debug\Lab3_MSMQ_LiveNotepad.pdb
+D:\Dropbox\_Facultate\SD\Laboratoare\Lab3_MSMQ_LiveNotepad\bin\Debug\Lab3_MSMQ_LiveNotepad.pdb
+D:\Dropbox\_Facultate\SD\Laboratoare\Lab3_MSMQ_LiveNotepad\obj\Debug\Lab3_MSMQ_LiveNotepad.csprojResolveAssemblyReference.cache

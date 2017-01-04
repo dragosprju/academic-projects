@@ -1,0 +1,11 @@
+D:\Dropbox\_Facultate\SD\Laboratoare\Lab6_WebService_Chat\WebChat\bin\Debug\WebChat.exe.config
+D:\Dropbox\_Facultate\SD\Laboratoare\Lab6_WebService_Chat\WebChat\bin\Debug\WebChat.exe
+D:\Dropbox\_Facultate\SD\Laboratoare\Lab6_WebService_Chat\WebChat\bin\Debug\WebChat.pdb
+D:\Dropbox\_Facultate\SD\Laboratoare\Lab6_WebService_Chat\WebChat\obj\Debug\WebChat.ChatForm.resources
+D:\Dropbox\_Facultate\SD\Laboratoare\Lab6_WebService_Chat\WebChat\obj\Debug\WebChat.Properties.Resources.resources
+D:\Dropbox\_Facultate\SD\Laboratoare\Lab6_WebService_Chat\WebChat\obj\Debug\WebChat.csproj.GenerateResource.Cache
+D:\Dropbox\_Facultate\SD\Laboratoare\Lab6_WebService_Chat\WebChat\obj\Debug\WebChat.exe
+D:\Dropbox\_Facultate\SD\Laboratoare\Lab6_WebService_Chat\WebChat\obj\Debug\WebChat.pdb
+D:\1306A\Lab6_WebService_Chat\WebChat\bin\Debug\WebChat.exe.config
+D:\1306A\Lab6_WebService_Chat\WebChat\obj\Debug\WebChat.exe
+D:\1306A\Lab6_WebService_Chat\WebChat\obj\Debug\WebChat.pdb

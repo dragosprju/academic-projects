@@ -1,0 +1,16 @@
+D:\1306A\Lab10_XML\Lab10_XML\bin\Debug\Lab10_XML.exe
+D:\1306A\Lab10_XML\Lab10_XML\bin\Debug\Lab10_XML.pdb
+D:\1306A\Lab10_XML\Lab10_XML\obj\Debug\Lab10_XML.csprojResolveAssemblyReference.cache
+D:\1306A\Lab10_XML\Lab10_XML\obj\Debug\Lab10_XML.Form1.resources
+D:\1306A\Lab10_XML\Lab10_XML\obj\Debug\Lab10_XML.Properties.Resources.resources
+D:\1306A\Lab10_XML\Lab10_XML\obj\Debug\Lab10_XML.csproj.GenerateResource.Cache
+D:\1306A\Lab10_XML\Lab10_XML\obj\Debug\Lab10_XML.exe
+D:\1306A\Lab10_XML\Lab10_XML\obj\Debug\Lab10_XML.pdb
+D:\Dropbox\_Facultate\SD\Laboratoare\Lab10_XML\obj\Debug\Lab10_XML.exe
+D:\Dropbox\_Facultate\SD\Laboratoare\Lab10_XML\obj\Debug\Lab10_XML.pdb
+D:\Dropbox\_Facultate\SD\Laboratoare\Lab10_XML\bin\Debug\Lab10_XML.exe
+D:\Dropbox\_Facultate\SD\Laboratoare\Lab10_XML\bin\Debug\Lab10_XML.pdb
+D:\Dropbox\_Facultate\SD\Laboratoare\Lab10_XML\obj\Debug\Lab10_XML.csprojResolveAssemblyReference.cache
+D:\Dropbox\_Facultate\SD\Laboratoare\Lab10_XML\obj\Debug\Lab10_XML.Form1.resources
+D:\Dropbox\_Facultate\SD\Laboratoare\Lab10_XML\obj\Debug\Lab10_XML.Properties.Resources.resources
+D:\Dropbox\_Facultate\SD\Laboratoare\Lab10_XML\obj\Debug\Lab10_XML.csproj.GenerateResource.Cache

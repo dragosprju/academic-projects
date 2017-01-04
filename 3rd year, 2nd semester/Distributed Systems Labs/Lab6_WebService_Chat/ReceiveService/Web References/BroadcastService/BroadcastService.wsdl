@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="localhost" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" targetNamespace="localhost" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="localhost">
+      <s:element name="Register">
+        <s:complexType />
+      </s:element>
+      <s:element name="RegisterResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="RegisterResult" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Unregister">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="ID" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="UnregisterResponse">
+        <s:complexType />
+      </s:element>
+      <s:element name="PutInMailbox">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="ID" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="message" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="PutInMailboxResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="PutInMailboxResult" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="CheckMailbox">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="ID" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="CheckMailboxResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="CheckMailboxResult" type="tns:ArrayOfString" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="ArrayOfString">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="string" nillable="true" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="ClearEverything">
+        <s:complexType />
+      </s:element>
+      <s:element name="ClearEverythingResponse">
+        <s:complexType />
+      </s:element>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="RegisterSoapIn">
+    <wsdl:part name="parameters" element="tns:Register" />
+  </wsdl:message>
+  <wsdl:message name="RegisterSoapOut">
+    <wsdl:part name="parameters" element="tns:RegisterResponse" />
+  </wsdl:message>
+  <wsdl:message name="UnregisterSoapIn">
+    <wsdl:part name="parameters" element="tns:Unregister" />
+  </wsdl:message>
+  <wsdl:message name="UnregisterSoapOut">
+    <wsdl:part name="parameters" element="tns:UnregisterResponse" />
+  </wsdl:message>
+  <wsdl:message name="PutInMailboxSoapIn">
+    <wsdl:part name="parameters" element="tns:PutInMailbox" />
+  </wsdl:message>
+  <wsdl:message name="PutInMailboxSoapOut">
+    <wsdl:part name="parameters" element="tns:PutInMailboxResponse" />
+  </wsdl:message>
+  <wsdl:message name="CheckMailboxSoapIn">
+    <wsdl:part name="parameters" element="tns:CheckMailbox" />
+  </wsdl:message>
+  <wsdl:message name="CheckMailboxSoapOut">
+    <wsdl:part name="parameters" element="tns:CheckMailboxResponse" />
+  </wsdl:message>
+  <wsdl:message name="ClearEverythingSoapIn">
+    <wsdl:part name="parameters" element="tns:ClearEverything" />
+  </wsdl:message>
+  <wsdl:message name="ClearEverythingSoapOut">
+    <wsdl:part name="parameters" element="tns:ClearEverythingResponse" />
+  </wsdl:message>
+  <wsdl:portType name="BroadcastServiceSoap">
+    <wsdl:operation name="Register">
+      <wsdl:input message="tns:RegisterSoapIn" />
+      <wsdl:output message="tns:RegisterSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Unregister">
+      <wsdl:input message="tns:UnregisterSoapIn" />
+      <wsdl:output message="tns:UnregisterSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="PutInMailbox">
+      <wsdl:input message="tns:PutInMailboxSoapIn" />
+      <wsdl:output message="tns:PutInMailboxSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="CheckMailbox">
+      <wsdl:input message="tns:CheckMailboxSoapIn" />
+      <wsdl:output message="tns:CheckMailboxSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ClearEverything">
+      <wsdl:input message="tns:ClearEverythingSoapIn" />
+      <wsdl:output message="tns:ClearEverythingSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="BroadcastServiceSoap" type="tns:BroadcastServiceSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="Register">
+      <soap:operation soapAction="localhost/Register" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Unregister">
+      <soap:operation soapAction="localhost/Unregister" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="PutInMailbox">
+      <soap:operation soapAction="localhost/PutInMailbox" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CheckMailbox">
+      <soap:operation soapAction="localhost/CheckMailbox" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ClearEverything">
+      <soap:operation soapAction="localhost/ClearEverything" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="BroadcastServiceSoap12" type="tns:BroadcastServiceSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="Register">
+      <soap12:operation soapAction="localhost/Register" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Unregister">
+      <soap12:operation soapAction="localhost/Unregister" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="PutInMailbox">
+      <soap12:operation soapAction="localhost/PutInMailbox" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CheckMailbox">
+      <soap12:operation soapAction="localhost/CheckMailbox" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ClearEverything">
+      <soap12:operation soapAction="localhost/ClearEverything" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="BroadcastService">
+    <wsdl:port name="BroadcastServiceSoap" binding="tns:BroadcastServiceSoap">
+      <soap:address location="http://localhost:59853/BroadcastService.asmx" />
+    </wsdl:port>
+    <wsdl:port name="BroadcastServiceSoap12" binding="tns:BroadcastServiceSoap12">
+      <soap12:address location="http://localhost:59853/BroadcastService.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

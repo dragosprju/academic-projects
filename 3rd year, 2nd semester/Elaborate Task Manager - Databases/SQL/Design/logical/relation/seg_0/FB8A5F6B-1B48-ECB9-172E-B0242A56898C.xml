@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Timp_petrecut_Sarcina_FK" directorySegmentName="seg_0" id="FB8A5F6B-1B48-ECB9-172E-B0242A56898C">
+<createdBy>Dragos</createdBy>
+<createdTime>2016-04-21 14:12:27 UTC</createdTime>
+<generatorID>1F684AFD-D98C-7E8E-7512-4390D841FB9A</generatorID>
+<ownerDesignName>Design</ownerDesignName>
+<engineerTo>
+<item key="0546AC64-B64B-C3AC-729D-A70E457B5117" value="true"/>
+</engineerTo>
+<sourcePk>5EA31DEC-505D-21EB-DA12-4FC29623BD6C</sourcePk>
+<identifying>true</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>12A5862D-B181-16C4-9A36-6606A8C63735</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>B4126A4A-6CC7-62E1-1434-4B72589D7D58</targetEntity>
+<transferable>true</transferable>
+<deleteRule>CASCADE</deleteRule>
+</Relation>

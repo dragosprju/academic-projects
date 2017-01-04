@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebChat", "WebChat.csproj", "{70E70A40-0269-400A-9B5E-D9FCD2C6A128}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReceiveService", "..\ReceiveService\ReceiveService.csproj", "{7752991C-5D17-41C8-A827-440C76FCB6DE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BroadcastService", "BroadcastService\BroadcastService.csproj", "{C3A4E425-6D3B-42EF-8B38-879AD2E3B44C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{70E70A40-0269-400A-9B5E-D9FCD2C6A128}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{70E70A40-0269-400A-9B5E-D9FCD2C6A128}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{70E70A40-0269-400A-9B5E-D9FCD2C6A128}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{70E70A40-0269-400A-9B5E-D9FCD2C6A128}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7752991C-5D17-41C8-A827-440C76FCB6DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7752991C-5D17-41C8-A827-440C76FCB6DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7752991C-5D17-41C8-A827-440C76FCB6DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7752991C-5D17-41C8-A827-440C76FCB6DE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C3A4E425-6D3B-42EF-8B38-879AD2E3B44C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C3A4E425-6D3B-42EF-8B38-879AD2E3B44C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C3A4E425-6D3B-42EF-8B38-879AD2E3B44C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C3A4E425-6D3B-42EF-8B38-879AD2E3B44C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

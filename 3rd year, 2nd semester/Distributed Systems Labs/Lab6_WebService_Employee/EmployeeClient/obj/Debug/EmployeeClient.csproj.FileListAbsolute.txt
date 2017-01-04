@@ -1,0 +1,11 @@
+D:\Dropbox\_Facultate\SD\Laboratoare\Lab6_WebService_Employee\Lab6_WebService_Employee\EmployeeClient\bin\Debug\EmployeeClient.exe.config
+D:\Dropbox\_Facultate\SD\Laboratoare\Lab6_WebService_Employee\Lab6_WebService_Employee\EmployeeClient\bin\Debug\EmployeeClient.exe
+D:\Dropbox\_Facultate\SD\Laboratoare\Lab6_WebService_Employee\Lab6_WebService_Employee\EmployeeClient\bin\Debug\EmployeeClient.pdb
+D:\Dropbox\_Facultate\SD\Laboratoare\Lab6_WebService_Employee\Lab6_WebService_Employee\EmployeeClient\obj\Debug\EmployeeClient.exe
+D:\Dropbox\_Facultate\SD\Laboratoare\Lab6_WebService_Employee\Lab6_WebService_Employee\EmployeeClient\obj\Debug\EmployeeClient.pdb
+D:\1306A\Lab6_WebService_Employee\Lab6_WebService_Employee\EmployeeClient\bin\Debug\EmployeeClient.exe.config
+D:\1306A\Lab6_WebService_Employee\Lab6_WebService_Employee\EmployeeClient\obj\Debug\EmployeeClient.exe
+D:\1306A\Lab6_WebService_Employee\Lab6_WebService_Employee\EmployeeClient\obj\Debug\EmployeeClient.pdb
+D:\1306A\Lab6_WebService_Employee\Lab6_WebService_Employee\EmployeeClient\bin\Debug\EmployeeClient.exe
+D:\1306A\Lab6_WebService_Employee\Lab6_WebService_Employee\EmployeeClient\bin\Debug\EmployeeClient.pdb
+D:\1306A\Lab6_WebService_Employee\Lab6_WebService_Employee\EmployeeClient\obj\Debug\EmployeeClient.csprojResolveAssemblyReference.cache

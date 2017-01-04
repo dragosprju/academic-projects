@@ -1,0 +1,7 @@
+D:\Dropbox\_Facultate\SD\Laboratoare\Lab2_Socketuri\Asyncron\AsyncClient\obj\Debug\AsyncClient.exe
+D:\Dropbox\_Facultate\SD\Laboratoare\Lab2_Socketuri\Asyncron\AsyncClient\obj\Debug\AsyncClient.pdb
+D:\Dropbox\_Facultate\SD\Laboratoare\Lab2_Socketuri\Asyncron\AsyncClient\bin\Debug\AsyncClient.exe
+D:\Dropbox\_Facultate\SD\Laboratoare\Lab2_Socketuri\Asyncron\AsyncClient\bin\Debug\AsyncClient.pdb
+D:\Dropbox\_Facultate\SD\Laboratoare\Lab2_Socketuri\Asyncron\AsyncClient\obj\Debug\AsyncClient.Form1.resources
+D:\Dropbox\_Facultate\SD\Laboratoare\Lab2_Socketuri\Asyncron\AsyncClient\obj\Debug\AsyncClient.csproj.GenerateResource.Cache
+D:\Dropbox\_Facultate\SD\Laboratoare\Lab2_Socketuri\Asyncron\AsyncClient\obj\Debug\AsyncClient.csprojResolveAssemblyReference.cache

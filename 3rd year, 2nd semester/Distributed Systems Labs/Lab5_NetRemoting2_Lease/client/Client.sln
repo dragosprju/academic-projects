@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Client", "Client\Client.csproj", "{F86BD3DB-EAB3-4363-8D00-3F8F5CD22E28}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Server", "..\Server\Server.csproj", "{C41C6A5A-BC91-4754-AA98-7E0A07028DDB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MathLibrary", "..\MathLibrary\MathLibrary.csproj", "{79227AF6-6D56-4C4E-88FA-6AE1A21DD338}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F86BD3DB-EAB3-4363-8D00-3F8F5CD22E28}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F86BD3DB-EAB3-4363-8D00-3F8F5CD22E28}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F86BD3DB-EAB3-4363-8D00-3F8F5CD22E28}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F86BD3DB-EAB3-4363-8D00-3F8F5CD22E28}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C41C6A5A-BC91-4754-AA98-7E0A07028DDB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C41C6A5A-BC91-4754-AA98-7E0A07028DDB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C41C6A5A-BC91-4754-AA98-7E0A07028DDB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C41C6A5A-BC91-4754-AA98-7E0A07028DDB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{79227AF6-6D56-4C4E-88FA-6AE1A21DD338}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{79227AF6-6D56-4C4E-88FA-6AE1A21DD338}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{79227AF6-6D56-4C4E-88FA-6AE1A21DD338}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{79227AF6-6D56-4C4E-88FA-6AE1A21DD338}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

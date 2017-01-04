@@ -1,0 +1,5 @@
+D:\Dropbox\_Facultate\SD\Laboratoare\Lab6_WebService_Chat\ReceiveService\bin\ReceiveService.dll.config
+D:\Dropbox\_Facultate\SD\Laboratoare\Lab6_WebService_Chat\ReceiveService\bin\ReceiveService.dll
+D:\Dropbox\_Facultate\SD\Laboratoare\Lab6_WebService_Chat\ReceiveService\bin\ReceiveService.pdb
+D:\Dropbox\_Facultate\SD\Laboratoare\Lab6_WebService_Chat\ReceiveService\obj\Debug\ReceiveService.dll
+D:\Dropbox\_Facultate\SD\Laboratoare\Lab6_WebService_Chat\ReceiveService\obj\Debug\ReceiveService.pdb

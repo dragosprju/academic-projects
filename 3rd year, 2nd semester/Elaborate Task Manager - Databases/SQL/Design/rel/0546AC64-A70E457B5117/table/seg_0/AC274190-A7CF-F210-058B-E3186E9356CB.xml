@@ -1,0 +1,80 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="AC274190-A7CF-F210-058B-E3186E9356CB" name="Timp_petrecut">
+<createdBy>Dragos</createdBy>
+<createdTime>2016-04-16 19:56:22 UTC</createdTime>
+<comment> </comment>
+<commentInRDBMS> </commentInRDBMS>
+<ownerDesignName>Design</ownerDesignName>
+<ordsAlias>table_6</ordsAlias>
+<shouldGeneratescript>true</shouldGeneratescript>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_Sarcina" id="C1BAF7E3-535F-B27C-EBFA-C3886BCC1BB0">
+<createdBy>Dragos</createdBy>
+<createdTime>2016-04-16 19:58:28 UTC</createdTime>
+<ownerDesignName>Design</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1F684AFD-D98C-7E8E-7512-4390D841FB9A" referredColumn="2AB33460-E830-DE22-3347-35BF9518B280"/>
+</associations>
+</Column>
+<Column name="Data_inceperii" id="A2A7F208-03F8-587B-A783-66BD1E4C2B89">
+<createdBy>Dragos</createdBy>
+<createdTime>2016-04-16 19:58:28 UTC</createdTime>
+<ownerDesignName>Design</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Data_terminarii" id="3B7E2679-21B5-52D7-C001-1F4D5BBB3F63">
+<createdBy>Dragos</createdBy>
+<createdTime>2016-04-16 19:58:28 UTC</createdTime>
+<ownerDesignName>Design</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2088CC91-FBF7-50EC-5347-24EF07CC854B" name="Timp_petrecut_UN">
+<createdBy>Dragos</createdBy>
+<createdTime>2016-04-24 16:14:44 UTC</createdTime>
+<ownerDesignName>Design</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C1BAF7E3-535F-B27C-EBFA-C3886BCC1BB0"/>
+<colUsage columnID="A2A7F208-03F8-587B-A783-66BD1E4C2B89"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7FDD3997-B78C-277B-0C54-419BB1A3C6AB" name="Timp_petrecut_Sarcina_FK">
+<createdBy>Dragos</createdBy>
+<createdTime>2016-04-16 19:58:28 UTC</createdTime>
+<ownerDesignName>Design</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C1BAF7E3-535F-B27C-EBFA-C3886BCC1BB0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+<tableCheckConstraints itemClass="oracle.dbtools.crest.model.design.constraint.TableLevelConstraint">
+<tableCheckConstraint name="Timp_petrecut_CK" directorySegmentName="seg_0" id="38EB30F7-0A87-C0A3-5879-5DFAA1A09AF3">
+<createdBy>Dragos</createdBy>
+<createdTime>2016-04-24 16:15:35 UTC</createdTime>
+<ownerDesignName>Design</ownerDesignName>
+<rule>Data_inceperii &lt; Data_terminarii</rule>
+</tableCheckConstraint>
+</tableCheckConstraints>
+</Table>

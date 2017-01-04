@@ -1,0 +1,1 @@
+inverse x = foldr(\b g x -> g (b:x)) id x []

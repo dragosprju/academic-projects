@@ -1,0 +1,12 @@
+D:\1306A\Lab8_COM\Lab8_COM\bin\Debug\Lab8_COM.exe
+D:\1306A\Lab8_COM\Lab8_COM\bin\Debug\Lab8_COM.pdb
+D:\1306A\Lab8_COM\Lab8_COM\obj\Debug\Lab8_COM.csprojResolveAssemblyReference.cache
+D:\1306A\Lab8_COM\Lab8_COM\obj\Debug\Lab8_COM.exe
+D:\1306A\Lab8_COM\Lab8_COM\obj\Debug\Lab8_COM.pdb
+D:\Dropbox\_Facultate\SD\Laboratoare\Lab8_COM\Lab8_COM\obj\Debug\Lab8_COM.exe
+D:\Dropbox\_Facultate\SD\Laboratoare\Lab8_COM\Lab8_COM\obj\Debug\Lab8_COM.pdb
+E:\Dropbox\_Facultate\SD\Laboratoare\Lab8_COM\Lab8_COM\obj\Debug\Lab8_COM.exe
+E:\Dropbox\_Facultate\SD\Laboratoare\Lab8_COM\Lab8_COM\obj\Debug\Lab8_COM.pdb
+D:\Dropbox\_Facultate\SD\Laboratoare\Lab8_COM\Lab8_COM\bin\Debug\Lab8_COM.exe
+D:\Dropbox\_Facultate\SD\Laboratoare\Lab8_COM\Lab8_COM\bin\Debug\Lab8_COM.pdb
+D:\Dropbox\_Facultate\SD\Laboratoare\Lab8_COM\Lab8_COM\obj\Debug\Lab8_COM.csprojResolveAssemblyReference.cache

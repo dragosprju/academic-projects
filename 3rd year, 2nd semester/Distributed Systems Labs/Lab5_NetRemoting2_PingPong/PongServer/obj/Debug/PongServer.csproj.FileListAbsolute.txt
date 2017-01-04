@@ -1,0 +1,7 @@
+D:\Dropbox\_Facultate\SD\Laboratoare\Lab5_NetRemoting2_PingPong\PongServer\bin\Debug\PongServer.exe
+D:\Dropbox\_Facultate\SD\Laboratoare\Lab5_NetRemoting2_PingPong\PongServer\bin\Debug\PongServer.pdb
+D:\Dropbox\_Facultate\SD\Laboratoare\Lab5_NetRemoting2_PingPong\PongServer\bin\Debug\PingPong.dll
+D:\Dropbox\_Facultate\SD\Laboratoare\Lab5_NetRemoting2_PingPong\PongServer\bin\Debug\PingPong.pdb
+D:\Dropbox\_Facultate\SD\Laboratoare\Lab5_NetRemoting2_PingPong\PongServer\obj\Debug\PongServer.csprojResolveAssemblyReference.cache
+D:\Dropbox\_Facultate\SD\Laboratoare\Lab5_NetRemoting2_PingPong\PongServer\obj\Debug\PongServer.exe
+D:\Dropbox\_Facultate\SD\Laboratoare\Lab5_NetRemoting2_PingPong\PongServer\obj\Debug\PongServer.pdb

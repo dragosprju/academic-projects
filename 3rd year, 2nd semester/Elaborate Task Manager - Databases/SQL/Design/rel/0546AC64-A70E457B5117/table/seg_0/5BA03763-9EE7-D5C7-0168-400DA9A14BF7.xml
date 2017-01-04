@@ -1,0 +1,84 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5BA03763-9EE7-D5C7-0168-400DA9A14BF7" name="Utilizator">
+<createdBy>Dragos</createdBy>
+<createdTime>2016-04-16 21:18:55 UTC</createdTime>
+<comment> </comment>
+<commentInRDBMS> </commentInRDBMS>
+<ownerDesignName>Design</ownerDesignName>
+<ordsAlias>table_7</ordsAlias>
+<shouldGeneratescript>true</shouldGeneratescript>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_Responsabil" id="BC6C1CC9-EA09-5857-B7E6-3194402F15D1">
+<createdBy>Dragos</createdBy>
+<createdTime>2016-04-16 21:19:23 UTC</createdTime>
+<ownerDesignName>Design</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DC062C50-5ABD-4A38-6CEA-07AC7499C504" referredColumn="7A1FBBDC-112B-BB06-16D0-387299FB0AF8"/>
+</associations>
+</Column>
+<Column name="Nume_Utilizator" id="363CCF23-5A2C-C286-C2BB-F777F308D8F9">
+<createdBy>Dragos</createdBy>
+<createdTime>2016-04-19 19:00:05 UTC</createdTime>
+<ownerDesignName>Design</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>32</dataTypeSize>
+<ownDataTypeParameters>32,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Parola" id="12D82E8A-2A4D-29D1-41BB-5D006E702C65">
+<createdBy>Dragos</createdBy>
+<createdTime>2016-04-19 19:00:05 UTC</createdTime>
+<ownerDesignName>Design</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>128</dataTypeSize>
+<ownDataTypeParameters>128,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E9D58503-1A30-FC32-6560-34126DB6AA3C" name="Utilizator_Nume_Utilizator_UN">
+<createdBy>Dragos</createdBy>
+<createdTime>2016-04-19 19:02:23 UTC</createdTime>
+<ownerDesignName>Design</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="363CCF23-5A2C-C286-C2BB-F777F308D8F9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="546A50F5-CD40-265A-AC08-29A28F49B1C9" name="Utilizator_ID_Responsabil_UN">
+<createdBy>Dragos</createdBy>
+<createdTime>2016-04-20 01:40:43 UTC</createdTime>
+<ownerDesignName>Design</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BC6C1CC9-EA09-5857-B7E6-3194402F15D1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1086F1B2-75E7-931F-4682-A346C0490B30" name="Utilizator_Responsabil_FK">
+<createdBy>Dragos</createdBy>
+<createdTime>2016-04-20 01:39:39 UTC</createdTime>
+<ownerDesignName>Design</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BC6C1CC9-EA09-5857-B7E6-3194402F15D1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

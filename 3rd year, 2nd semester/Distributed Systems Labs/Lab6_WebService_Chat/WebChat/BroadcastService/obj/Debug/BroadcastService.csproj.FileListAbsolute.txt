@@ -1,0 +1,5 @@
+D:\Dropbox\_Facultate\SD\Laboratoare\Lab6_WebService_Chat\WebChat\BroadcastService\bin\BroadcastService.dll.config
+D:\Dropbox\_Facultate\SD\Laboratoare\Lab6_WebService_Chat\WebChat\BroadcastService\bin\BroadcastService.dll
+D:\Dropbox\_Facultate\SD\Laboratoare\Lab6_WebService_Chat\WebChat\BroadcastService\bin\BroadcastService.pdb
+D:\Dropbox\_Facultate\SD\Laboratoare\Lab6_WebService_Chat\WebChat\BroadcastService\obj\Debug\BroadcastService.dll
+D:\Dropbox\_Facultate\SD\Laboratoare\Lab6_WebService_Chat\WebChat\BroadcastService\obj\Debug\BroadcastService.pdb

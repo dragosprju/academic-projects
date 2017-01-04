@@ -1,0 +1,232 @@
+module reg8b(di, do, pl, clk);
+  input[7:0] di;
+  output[7:0] do;
+  
+  input clk, pl;
+
+  reg[7:0] do;
+  
+  always@(posedge clk)
+    if (pl == 1'b1)
+      do = di;
+    else
+      do = do;
+endmodule
+      
+module reg3b(di, do, pl, clk);
+  input[2:0] di;
+  output[2:0] do;
+  
+  input clk, pl;
+
+  reg[2:0] do;
+  
+  always@(posedge clk)
+    if (pl == 1'b1)
+      do = di;
+    else
+      do = do;
+endmodule
+
+module mux8b2c(A, B, do, sel);
+  input[7:0] A, B;
+  input sel;
+  output[7:0] do;
+  
+  reg[7:0] do;
+  
+  always@(A or B or sel)
+    if(sel == 0)
+      do = A;
+    else
+      do = B;
+  
+endmodule
+
+module counter8b(di, do, ci, co, en, res, pl, inc, dec, clk);
+  input[7:0] di;
+  output[7:0] do;
+  
+  input ci;
+  output co;
+  
+  input res, en, pl, inc, dec, clk;
+  
+  reg[7:0] do;
+  
+  assign co = ci | (~(do === 8'hff));
+  
+  always@(posedge clk)
+    casex({res, pl, en, ci, inc, dec})
+      6'b1xxxxx: do = 8'b0000_0000;
+      6'b01xxxx: do = di;
+      6'b00101x: do = do + 1;
+      6'b001001: do = do - 1;
+    endcase 
+  
+  /* Varianta mea
+   always@(negedge clk or negedge ci or posedge ci)
+    casex({inc, dec, ci, do})
+      {3'b100, 8'hff}: co = 1'b0;
+      {3'b100, 8'h00}: co = 1'b1;
+      {3'bx10, 8'h00}: co = 1'b0;
+      {3'bx10, 8'hff}: co = 1'b1;
+      default: co = 1'b1;
+    endcase 
+  */
+endmodule
+
+module reg3b_test();
+  reg[2:0] di;
+  reg pl, clk;
+  
+  wire[2:0] do;  
+  
+  reg3b reg3b_inst(di, do, pl, clk);
+  
+  initial
+    #100 $finish;
+    
+  initial
+  begin
+    #0 clk = 0;
+    forever #5 clk = ~clk;
+  end
+  
+  initial
+  begin
+    #0 di = 3'b000; pl = 1;
+    #10 pl = 0;
+    #20 di = 3'b101;
+    #10 pl = 1;
+    #10 pl = 0;
+  end
+endmodule
+
+module reg8b_test();
+  reg[7:0] di;
+  reg pl, clk;
+  
+  wire[7:0] do;  
+  
+  reg8b reg8b_inst(di, do, pl, clk);
+  
+  initial
+    #100 $finish;
+    
+  initial
+  begin
+    #0 clk = 0;
+    forever #5 clk = ~clk;
+  end
+  
+  initial
+  begin
+    #0 di = 8'h00; pl = 1;
+    #10 pl = 0;
+    #20 di = 8'haa;
+    #10 pl = 1;
+    #10 pl = 0;
+  end
+endmodule
+
+module mux8b2c_test();
+  reg[7:0] A, B;
+  reg sel;
+  wire[7:0] do;
+  
+  mux8b2c mux8b2c_inst(A, B, do, sel);
+  
+  initial
+    #100 $finish;
+  
+  initial
+  begin
+    #0 A = 8'h0a; B = 8'haa;
+    #10 sel = 0;
+    #10 sel = 1;
+  end
+endmodule
+
+module counter8b_test();
+  reg[7:0] di1, di2, di3;
+  reg ci, en, res, pl, inc, dec;
+  
+  reg clk;
+  
+  wire[7:0] do1, do2, do3;
+  wire co12, co23, co3;
+  
+  counter8b counter1(di1, do1, ci, co12, en, res, pl, inc, dec, clk);
+  counter8b counter2(di2, do2, co12, co23, en, res, pl, inc, dec, clk);
+  counter8b counter3(di3, do3, co23, co3, en, res, pl, inc, dec, clk);
+  
+  initial
+    #100 $finish;
+    
+  initial
+  begin
+    #0 clk = 0;
+    forever #5 clk = ~clk;
+  end
+  
+  initial
+  begin
+    #0 res = 1;
+    #10 res = 0; pl = 1; di1=8'hfe; di2=8'hff; di3=8'hfe;
+    #10 pl = 0; en = 1; ci = 0; inc = 1;
+    #30 en = 0; ci = 1; inc = 0; res = 1;
+    #10 res = 0; pl = 1; di1=8'hfe; di2=8'hff; di3=8'hff;
+    #10 pl = 0; en = 1; ci = 0; inc = 1;
+  end
+endmodule
+      
+module instr_dec(instr, cmd, out);
+  input[2:0] instr;
+  input[2:0] cmd;
+  
+  // 0-  PLAR
+  // 1-  PLWR
+  // 2-  PLCR
+  // 3-  SELA
+  // 4-  SELW
+  // 5-  PLAC
+  // 6-  ENA
+  // 7-  INCA
+  // 8-  DECA
+  // 9-  RESW
+  // 10- PLWC
+  // 11- ENW
+  // 12- INCW
+  // 13- DECW
+  // 14- SELDATA[1:0]
+  // 15- OEDATA
+  output[16:0] out;
+  
+  reg[16:0]
+  
+  always@(instr or cmd)
+  casex({instr, cmd})
+    // Format: PLs_SELs_ADDRsgnls_WRDsgnsl_DATA
+    6'b000_xxx: out=17'b001_00_0000_00000_000;
+    6'b001_xxx: out=17'b000_00_0000_00000_101;
+    6'b010_xxx: out=17'b000_00_0000_00000_011;
+    6'b011_xxx: out=17'b000_00_0000_00000_001;
+    6'b100_xx0,
+    6'b100_x11: out=17'b000_11_1000_01000_000;
+    6'b100_x01: out=17'b000_10_1000_10000_000;
+    6'b110_xx0,
+    6'b110_x11: out=17'b01_000_0000_01000_000;
+    6'b110_x01: out=17'b01_000_0000_10000_000;
+    6'b111_000: out=17'b00_000_0110_00101_000;
+    6'b111_0x1: out=17'b00_000_0110_00110_000;
+    6'b111_010: out=17'b00_000_0110_00100_000;
+    6'b111_100: out=17'b00_000_0101_00101_000;
+    6'b111_1x1: out=17'b00_000_0101_00110_000;
+    6'b111_110: out=17'b00_000_0101_00100_000;
+  endcase
+endmodule
+    
+  
+  
+  

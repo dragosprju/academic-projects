@@ -1,0 +1,16 @@
+D:\Dropbox\_Facultate\SD\Laboratoare\Lab9_ADO_MiniExcel\Lab9_ADO_MiniExcel\bin\Debug\Lab9_ADO_MiniExcel.exe
+D:\Dropbox\_Facultate\SD\Laboratoare\Lab9_ADO_MiniExcel\Lab9_ADO_MiniExcel\bin\Debug\Lab9_ADO_MiniExcel.pdb
+D:\Dropbox\_Facultate\SD\Laboratoare\Lab9_ADO_MiniExcel\Lab9_ADO_MiniExcel\obj\Debug\Lab9_ADO_MiniExcel.csprojResolveAssemblyReference.cache
+D:\Dropbox\_Facultate\SD\Laboratoare\Lab9_ADO_MiniExcel\Lab9_ADO_MiniExcel\obj\Debug\Lab9_ADO_MiniExcel.Form1.resources
+D:\Dropbox\_Facultate\SD\Laboratoare\Lab9_ADO_MiniExcel\Lab9_ADO_MiniExcel\obj\Debug\Lab9_ADO_MiniExcel.Properties.Resources.resources
+D:\Dropbox\_Facultate\SD\Laboratoare\Lab9_ADO_MiniExcel\Lab9_ADO_MiniExcel\obj\Debug\Lab9_ADO_MiniExcel.csproj.GenerateResource.Cache
+D:\Dropbox\_Facultate\SD\Laboratoare\Lab9_ADO_MiniExcel\Lab9_ADO_MiniExcel\obj\Debug\Lab9_ADO_MiniExcel.exe
+D:\Dropbox\_Facultate\SD\Laboratoare\Lab9_ADO_MiniExcel\Lab9_ADO_MiniExcel\obj\Debug\Lab9_ADO_MiniExcel.pdb
+E:\Dropbox\_Facultate\SD\Laboratoare\Lab13_Config_MiniExcel\Lab9_ADO_MiniExcel\obj\Debug\Lab9_ADO_MiniExcel.exe
+E:\Dropbox\_Facultate\SD\Laboratoare\Lab13_Config_MiniExcel\Lab9_ADO_MiniExcel\obj\Debug\Lab9_ADO_MiniExcel.pdb
+E:\Dropbox\_Facultate\SD\Laboratoare\Lab13_Config_MiniExcel\Lab9_ADO_MiniExcel\bin\Debug\Lab9_ADO_MiniExcel.exe
+E:\Dropbox\_Facultate\SD\Laboratoare\Lab13_Config_MiniExcel\Lab9_ADO_MiniExcel\bin\Debug\Lab9_ADO_MiniExcel.pdb
+E:\Dropbox\_Facultate\SD\Laboratoare\Lab13_Config_MiniExcel\Lab9_ADO_MiniExcel\obj\Debug\Lab9_ADO_MiniExcel.csprojResolveAssemblyReference.cache
+E:\Dropbox\_Facultate\SD\Laboratoare\Lab13_Config_MiniExcel\Lab9_ADO_MiniExcel\obj\Debug\Lab9_ADO_MiniExcel.Form1.resources
+E:\Dropbox\_Facultate\SD\Laboratoare\Lab13_Config_MiniExcel\Lab9_ADO_MiniExcel\obj\Debug\Lab9_ADO_MiniExcel.Properties.Resources.resources
+E:\Dropbox\_Facultate\SD\Laboratoare\Lab13_Config_MiniExcel\Lab9_ADO_MiniExcel\obj\Debug\Lab9_ADO_MiniExcel.csproj.GenerateResource.Cache

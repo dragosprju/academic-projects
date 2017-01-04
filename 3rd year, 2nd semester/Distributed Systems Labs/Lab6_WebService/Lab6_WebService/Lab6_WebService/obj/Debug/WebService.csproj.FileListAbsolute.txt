@@ -1,0 +1,5 @@
+D:\1306A\Lab6_WebService\Lab6_WebService\Lab6_WebService\bin\Lab6_WebService.dll.config
+D:\1306A\Lab6_WebService\Lab6_WebService\Lab6_WebService\bin\Lab6_WebService.dll
+D:\1306A\Lab6_WebService\Lab6_WebService\Lab6_WebService\bin\Lab6_WebService.pdb
+D:\1306A\Lab6_WebService\Lab6_WebService\Lab6_WebService\obj\Debug\Lab6_WebService.dll
+D:\1306A\Lab6_WebService\Lab6_WebService\Lab6_WebService\obj\Debug\Lab6_WebService.pdb

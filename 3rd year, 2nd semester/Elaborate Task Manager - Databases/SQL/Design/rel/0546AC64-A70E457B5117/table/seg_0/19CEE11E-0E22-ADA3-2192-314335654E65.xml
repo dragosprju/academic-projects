@@ -1,0 +1,63 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="19CEE11E-0E22-ADA3-2192-314335654E65" name="Responsabil">
+<createdBy>Dragos</createdBy>
+<createdTime>2016-04-20 01:35:04 UTC</createdTime>
+<ownerDesignName>Design</ownerDesignName>
+<ordsAlias>table_10</ordsAlias>
+<beforeCreate>DROP SEQUENCE RESPONSABIL_ID_SEQ;</beforeCreate>
+<shouldGeneratescript>true</shouldGeneratescript>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="7A1FBBDC-112B-BB06-16D0-387299FB0AF8">
+<createdBy>Dragos</createdBy>
+<createdTime>2016-04-20 01:35:18 UTC</createdTime>
+<ownerDesignName>Design</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Prenume" id="5C3DD546-C6F3-DBED-49F0-2B973BE46E7A">
+<createdBy>Dragos</createdBy>
+<createdTime>2016-04-20 01:35:34 UTC</createdTime>
+<ownerDesignName>Design</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>32</dataTypeSize>
+<ownDataTypeParameters>32,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nume" id="659B6FC5-B5BD-E322-7FD1-C9096ED30785">
+<createdBy>Dragos</createdBy>
+<createdTime>2016-04-20 01:35:40 UTC</createdTime>
+<ownerDesignName>Design</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>32</dataTypeSize>
+<ownDataTypeParameters>32,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F68D1A6D-9E7C-619E-B53D-F4AC707707B2" name="Responsabil_PK">
+<createdBy>Dragos</createdBy>
+<createdTime>2016-04-20 01:38:51 UTC</createdTime>
+<ownerDesignName>Design</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7A1FBBDC-112B-BB06-16D0-387299FB0AF8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

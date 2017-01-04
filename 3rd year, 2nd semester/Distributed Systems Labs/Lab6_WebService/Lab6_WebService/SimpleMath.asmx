@@ -1,0 +1,1 @@
+﻿<%@ WebService Language="C#" CodeBehind="SimpleMath.asmx.cs" Class="SimpleMath.SimpleMath" %>
