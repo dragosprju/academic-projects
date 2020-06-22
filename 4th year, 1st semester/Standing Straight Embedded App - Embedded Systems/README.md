@@ -1,4 +1,4 @@
-# Standing Straight Embedded App
+# Standup, The Good Posture Encouragement Embedded App
 
 Done for the Embedded Systems course at the Technical University "Gheorghe Asachi" Iași.
 
