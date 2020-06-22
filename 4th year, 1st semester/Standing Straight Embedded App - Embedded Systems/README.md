@@ -10,7 +10,7 @@ Done for the Embedded Systems course at the Technical University "Gheorghe Asach
 
 ### Server Login
 
-![Server Login](Pictures/Server%20Login.jpg)
+![Server Login](Pictures/Server%20Login.png)
 
 ### Project Picture
 
@@ -18,4 +18,4 @@ Done for the Embedded Systems course at the Technical University "Gheorghe Asach
 
 ### Wiring Schema
 
-![Wiring Schema](Pictures/Wiring%20Schema.jpg)
+![Wiring Schema](Pictures/Wiring%20Schema.png)
