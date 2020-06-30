@@ -1,5 +1,5 @@
 Submission for the Hardware Verification course assignment #1
--- Dragos-Stefan Perju & Mart Pluijmaekers
+-- Dragos-Stefan Perju & Mart P.
 
 
 Exercises 1-2:
