@@ -1,0 +1,119 @@
+Submission for the Hardware Verification course assignment #1
+-- Dragos-Stefan Perju & Mart Pluijmaekers
+
+
+Exercises 1-2:
+--------------
+'alu.v' is of interest in this case. 'script_for_alu.tcl' should be executed
+with Jasper in order to see the asserts. The tcl script disregards the clock
+and reset signals and therefore any implication in asserts is done with
+'->' and not '|->' or '|=>' as it is how it should be.
+
+Modules 'half_adder' and 'full_adder' were created as per assignment
+description and figures provided. They are tested when they work
+together inside module 'rca8' -- the 8-bit ripple carry adder.
+
+The assert for 'rca8' is in module 'top' that is further below in the 'alu.v'
+file:
+
+    rca8_general: assert property(A + B + c0 == s);
+
+We can see some commented modules called 'test_fa' and 'test_rca8'. They were
+needed, as mismade connections were made and the full adders and ripple carry 
+adder are simple designs that would've needed asserts for every wire to debug
+such an issue. Such a hassle was replaced however with seeing the waveform
+for simple testing done through the free 'iverilog' compiler locally.
+
+The following commented 'top' module is the first version of module done
+to instatiate needed modules (rca8) and to make the first assert for this
+assignment. The same assert is still being checked in the final form of 'top',
+further below in code.
+
+
+Exercise 3-4:
+-------------
+The way module 'alu' is made is by capturing the logic made around a 
+full-adder cell into its own module and replicating/instantiating it 8 times.
+The ripple carry adder is instantiated one time and wired with the newly made
+8 'gatemux' modules in this regard.
+
+'b' is the 'b' operand inputted for the whole design, while 'b_for_rca' is
+the result of the gate logic that takes place before the 'b' input of 'rca'.
+'b' is input for 'gatemux', while 'b_for_rca' is output that goes as input
+into 'rca'.
+
+The flags are implemented as per the assignment's description.
+
+VERIFICATION:
+Each operation valid for the 'alu' is verified inside module 'top'. As we
+know that the carry flag is an extended bit (the s[9]) for the 8-bit 's' 
+variable, we test during add/substract operations against a concatenated 'C'
+flag with the result 'r' instead of just a simple 'r'. It also makes 
+fundamenta sense  that carry 'C' would extend the result 'r' in add or
+substract operations, hence we're verifying this way (and how a verification
+engineer would do when he thinks independently of the design).
+
+The uppercase 'A' and 'B', as well as 'Bneg' exist because we do not trust
+Verilog with verifying an 8-bit sum 'a + b' against 9-bit variables '{C, r}'
+(does it cut '{C, r}' down to 8-bit, eliminating 'C'?). Is is safe practice
+to do our own extensions with 0-value bits ourselves.
+
+We're trying to understand the fundamentals of the operations that happen
+when we're creating asserts. For substraction with 1 from 'a', we figure out
+that the operation is actually an addition with 'FF', being '-1' in 2's 
+complement. Some comments throughout the code are of help to understand such 
+thinking.
+
+The flags are tested by checking the fundamental reason they get toggled by:
+ * 'C' was already checked while also checking operations. 
+ * For 'Z' is simple, just check if 'r' and 'C' are 0. 
+ * 'V' for overflow is harder: 
+   - We're establishing that both 'a' and 'b' are at the same time small 
+   (with 8-th bit being 0, or both values being less than or equal to '7F') 
+   or big (the opposite, the 8-th bit being 1 or whole values being bigger
+   than '7F').
+   - Afterwards, we replicate 'r' through 'abSum'
+   as how we did when asserting 'rca' itself. We are careful to recreate 'b' 
+   after the logic that precedes the input of a full-adder cell in the ALU.
+   We are careful not to double the carry effect ('op[0]') for some operations
+   in this regard (when adding or substracting 1)
+   and it is to be mentioned that the 'b' we're trying to obtain does not
+   always use the 'b' the whole design as as input -- we're trying to
+   replicate 'b_for_rca' so at some point it can just be 'FF' for example.
+   - In such a way, we obtain the "mirror" of 'V':
+
+        assign Vmirror = (  (abSmall & ((abSum_without_C  > 9'h07F))) |
+                            (abBig   & ((abSum_without_C <= 9'h07F)))
+                         );
+
+     and we're testing it only when we're doing operations that involve
+     an add or substract logic, as the flags toggle based on that,
+     regardless if the alu 'op' is a logic operation or an undefined
+     opcode. We assume that for logic operations the flags would be
+     ignored by the programmer, so they are not needed to be verified in
+     such cases.
+  * 'N' is a simple flag to test. We know that negative numbers in 2's
+    complement are over '7F' so we verify with that in mind.
+
+ The 'test_op_1010_C' module commented below 'top' is a testbench again to
+ understand why 'C' was toggling positive in a substraction 'a - 1'. It's
+ because the substraction is actually addition with 2's complement 'a + FF'.
+
+Exercise 5-6:
+-------------
+For implementing ex8, most things were given, only implementation (and
+verification of) the signals was needed. Since it was given that ex8 worked
+in 2 distinct phases - fetch and decode&execute - we decided to simply
+implement this in 2 distinct parts. First all generic signals, like input
+enable and special input enable, which are always the same for each opcode.
+Afterwards the opcode specific signals where implemented in lock-step, first
+implementing and then verifying, this had immediate results since our
+implementation allready had bugs. The verification parts where done by verifing
+the correct signal values for every opcode in every phase. 
+
+This was a good tactic, since we could immediately see which values where
+incorrect and than we could fix the implementation accordingly. No clock
+verification was needed since we made assertions for every phase, and we knew
+which values it should take in that phase. These assertions (especially for th
+decode phase) are too strong, since they are also verifying values which are not
+yet needed (like the instruction for the alu).

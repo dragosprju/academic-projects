@@ -1,0 +1,98 @@
+Submission for the Hardware Verification course assignment #1
+---
+First Name: Dragoş-Ştefan
+Last Name: Perju
+OSIRIS ID: 20175417
+Student ID: 1283316
+---
+
+Summary of 'explanation.txt':
+A. Obtaining CNF formula for OR
+B. Obtaining CNF formula for NOR
+C. Obtaining CNF formula for NOT
+D. Explaining the output of Lingeling
+
+===============================================================================
+
+A. Obtaining CNF formula for OR
+-------------------------------
+
+OR truth table
+| A B | C |
+|-----|---|
+| 0 0 | 0 |
+| 0 1 | 1 |
+| 1 0 | 1 |
+| 1 1 | 1 |
+
+
+Very similar to XOR:
+
+1. If A and B are false, then C is false:
+    "!A & !B implies !C", logically equivalent to A | B | !C
+
+2. If A is true and B is false, then C is true:
+    "A & !B implies C", logically we get !A | B | C
+    Symetric case: A | !B | C
+
+3. (DIFFERENT FROM XOR) If A and B are true, then C is true:
+     "A & B implies C", logically we get !A | !B | C
+
+OR's CNF formula is (A | B | !C) & (!A | B | C) & (A | !B | C) & (!A | !B | C)
+
+===============================================================================
+
+B. Obtaining CNF formula for NOR
+--------------------------------
+
+NOR truth table
+| A B | C |
+|-----|---|
+| 0 0 | 1 |
+| 0 1 | 0 |
+| 1 0 | 0 |
+| 1 1 | 0 |
+
+
+1. If A and B are false, then C is true:
+    "!A & !B implies C", logically equivalent to A | B | C
+
+2. If A is true and B is false, then C is false:
+    "A & !B implies !C", logically we get !A | B | !C
+    Symetric case: A | !B | !C
+
+3. If A and B are true, then C is false:
+     "A & B implies !C", logically we get !A | !B | !C
+
+NOR's CNF formula is (A | B | C) & (!A | B | !C) & (A | !B | !C) & (!A | !B | !C).
+
+===============================================================================
+
+C. Obtaining CNF formula for NOT
+--------------------------------
+
+NOT truth table
+| A | B |
+|---|---|
+| 0 | 1 |
+| 1 | 0 |
+
+
+1. If A is false, then B is true:
+    "!A implies B", logically equivalent to A | B
+
+2. If A is true, then B is false:
+    "A implies !B", logically we get !A | !B
+
+NOT's CNF formula is (A | B) & (!A & !B)
+
+===============================================================================
+
+D. Explaining the output of Lingeling
+-------------------------------------
+
+In the case of testing equivalent circuits, such as ISCAS85/c1355.isc and ISCAS85/c1355nr.isc, our program produces the CNF form of the circuits coupled together, with their outputs paired up and connected to XOR gates and the XOR gates all connected as inputs to an OR gate.
+
+Since the mentioned circuits are equivalent, the XOR gates are to always output logic 0. This is proven by Lingeling's display of the "UNSATISFIABLE" message in this case, meaning that for every input vector it tested, it didn't find one that obtains true (logic 1) for the final OR output (which means that no XOR gate outputted logic 1 for every input vector tested; which also means that for every input vector tested, the two circuits always had matching outputs, being equivalent).
+
+If we couple and transform two netlist files of non-equivalent circuits, such as ISCAS85/c2670.isc and ISCAS85/c2670nr_old.isc, into the equivalence tester circuit of CNF format as before, we find out that Lingeling outputs "SATISFIABLE" for this case, meaning that it found an input vector that produces logic 1 at the output of the final OR gate (which means that at least one XOR gate outputted true; which also means that for the input vector tested, the two circuits had at least a pair of outputs that were of different values). Lingeling then proceeds to show the values taken in the whole circuit, including the inputs, the outputs and the gates in between, for the input vector that verified the CNF expression to be true and the selected circuits from the ISCAS benchmark to NOT be equivalent.

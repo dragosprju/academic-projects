@@ -1,0 +1,2 @@
+Screenshot attached shows that even though all asserts pass, some of the automatic covers placed on irdy's are unreachable, meaning irdy in those types of situation never become true in the first place -- some of the initiators are never ready.
+
