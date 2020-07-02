@@ -1,0 +1,65 @@
+DMA mode enabled
+== Compiling monitor
+make[1]: Entering directory `/home/emb18/emb18069/submission/group14-function-parallel/jpeg_compsoc'
+/opt/tools/Xilinx/14.7/ISE_DS/EDK/gnu/microblaze/lin/bin/mb-gcc  -Wall -fmessage-length=0 -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mno-xl-soft-div -mno-xl-soft-mul -mhard-float -mxl-float-convert -mxl-float-sqrt -mcpu=v8.50.c -I/home/emb18/material/monitor_nohuf/aethereal -I/home/emb18/material/platform//monitor-include -L /home/emb18/material/platform//monitor-lib /home/emb18/material/monitor_nohuf/main.c /home/emb18/material/monitor_nohuf/uart.c /home/emb18/material/monitor_nohuf/aethereal/dae_cfgbus.c /home/emb18/material/monitor_nohuf/aethereal/dae_conns.c /home/emb18/material/monitor_nohuf/aethereal/dae_funcs.c /home/emb18/material/monitor_nohuf/memctrl//memctrl_config.c /home/emb18/material/monitor_nohuf/memctrl//memctrl_driver.c -o .build/monitor.elf -T /home/emb18/material/platform//monitor.ld -DDO_IMAGE_OUTPUT -DUSE_DMA -DIMAGE_OUTPUT_HEIGHT="1" -DIMAGE_OUTPUT_WIDTH="1" -I/home/emb18/material/platform//include/
+== Compiling core 1
+/opt/tools/Xilinx/14.7/ISE_DS/EDK/gnu/microblaze/lin/bin/mb-gcc  -Wall -fmessage-length=0 -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mno-xl-soft-div -mno-xl-soft-mul -mhard-float -mxl-float-convert -mxl-float-sqrt -mcpu=v8.50.c -O3 -Wall -std=c99 -Wl,--gc-sections  -DHAS_DMA=1 -I/home/emb18/material/platform//include -I/home/emb18/material/platform//include/mb1    -Imb_shared/ -L /home/emb18/material/platform//lib -DMB1 mb1/5kk03.c mb1/cc.c mb1/header_vld.c mb1/huffman.c mb1/idct.c mb1/iqzz.c mb1/mb1_main.c mb1/raster.c mb1/utilities.c mb_shared/5kk03-utils.c mb_shared/fifo.c -o .build/mb1.elf -T /home/emb18/material/platform//mb1.ld -Imb1
+== Compiling core 2
+/opt/tools/Xilinx/14.7/ISE_DS/EDK/gnu/microblaze/lin/bin/mb-gcc  -Wall -fmessage-length=0 -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mno-xl-soft-div -mno-xl-soft-mul -mhard-float -mxl-float-convert -mxl-float-sqrt -mcpu=v8.50.c -O3 -Wall -std=c99 -Wl,--gc-sections  -DHAS_DMA=1 -I/home/emb18/material/platform//include -I/home/emb18/material/platform//include/mb2    -Imb_shared/ -L /home/emb18/material/platform//lib -DMB2 mb2/5kk03.c mb2/cc.c mb2/header_vld.c mb2/huffman.c mb2/idct.c mb2/iqzz.c mb2/mb2_main.c mb2/raster.c mb2/utilities.c mb_shared/5kk03-utils.c mb_shared/fifo.c -o .build/mb2.elf -T /home/emb18/material/platform//mb2.ld -Imb2
+== Compiling core 3
+/opt/tools/Xilinx/14.7/ISE_DS/EDK/gnu/microblaze/lin/bin/mb-gcc  -Wall -fmessage-length=0 -mlittle-endian -mno-xl-barrel-shift -mno-xl-pattern-compare -mxl-soft-div -mxl-soft-mul -msoft-float -mcpu=v8.50.c  -O3 -Wall -std=c99 -Wl,--gc-sections  -DHAS_DMA=1 -I/home/emb18/material/platform//include -I/home/emb18/material/platform//include/mb3   -Imb_shared/ -L /home/emb18/material/platform//lib-small -DMB3 mb3/5kk03.c mb3/cc.c mb3/header_vld.c mb3/huffman.c mb3/idct.c mb3/iqzz.c mb3/mb3_main.c mb3/raster.c mb3/utilities.c mb_shared/5kk03-utils.c mb_shared/fifo.c -o .build/mb3.elf -T /home/emb18/material/platform//mb3.ld -Imb3
+== Compiling core 4
+/opt/tools/Xilinx/14.7/ISE_DS/EDK/gnu/microblaze/lin/bin/mb-gcc  -Wall -fmessage-length=0 -mlittle-endian -mno-xl-barrel-shift -mno-xl-pattern-compare -mxl-soft-div -mxl-soft-mul -msoft-float -mcpu=v8.50.c  -O3 -Wall -std=c99 -Wl,--gc-sections  -DHAS_DMA=1 -I/home/emb18/material/platform//include -I/home/emb18/material/platform//include/mb4   -Imb_shared/ -L /home/emb18/material/platform//lib-small -DMB4 mb4/main.c mb_shared/5kk03-utils.c mb_shared/fifo.c -o .build/mb4.elf -T /home/emb18/material/platform//mb4.ld -Imb4
+== Building file2bin
+== Creating memory image
+ssh co8 mkdir "/tmp/.5kk03-WTWCA4z8o7rMuBk9"
+scp .build/monitor.elf .build/mb1.elf .build/mb2.elf .build/mb3.elf .build/mb4.elf .build/data.bin co8:"/tmp/.5kk03-WTWCA4z8o7rMuBk9"
+ssh co8 "/bin/bash -c \"source /opt/tools/Xilinx/14.7/settings64.sh; cd /tmp/.5kk03-WTWCA4z8o7rMuBk9; data2mem -bm /usr/share/5LIB0-2015//system_bd.bmm -bt /usr/share/5LIB0-2015//system.bit -bd mb1.elf tag mb1   -bd mb2.elf tag mb2   -bd mb3.elf tag mb3  -bd mb4.elf tag mb4 -bd monitor.elf tag monitor -o b user.bit\""
+. /opt/tools/Xilinx/14.7/ISE_DS/common/.settings64.sh /opt/tools/Xilinx/14.7/ISE_DS/common
+. /opt/tools/Xilinx/14.7/ISE_DS/EDK/.settings64.sh /opt/tools/Xilinx/14.7/ISE_DS/EDK
+. /opt/tools/Xilinx/14.7/ISE_DS/PlanAhead/.settings64.sh /opt/tools/Xilinx/14.7/ISE_DS/PlanAhead
+. /opt/tools/Xilinx/14.7/ISE_DS/ISE/.settings64.sh /opt/tools/Xilinx/14.7/ISE_DS/ISE
+ssh co8 ml-doimpact -B 8 -f "/tmp/.5kk03-WTWCA4z8o7rMuBk9/user.bit" -b 921600 -t 120 -o /tmp/.5kk03-WTWCA4z8o7rMuBk9/ttylog -i /tmp/.5kk03-WTWCA4z8o7rMuBk9/data.bin  | 5kk03_parser_nohf 
+FILE: /tmp/.5kk03-WTWCA4z8o7rMuBk9/user.bit is  old
+Note:
+Jobs in red are scheduled using bitspooler
+Jobs in magenta are scheduled directly
+
+Job accepted !
+Running impact
+Looking for impact output TAIL=23724 TEMP=23722
+Boundary-scan chain validated successfully.
+2: Device Temperature: 53.33 C, Min. Reading:   47.42 C, Max.Reading:   53.33 C
+2: VCCINT Supply: 1.005 V, Min. Reading:   1.002 V, Max.Reading:   1.008 V
+2: VCCAUX Supply: 2.493 V, Min. Reading:   2.487 V, Max.Reading:   2.496 V
+'2': Programming device...
+'2': Programmed successfully.
+
+Board programmed !
+Grabbing tty:
+Starting monitor
+Setup TFT controller
+Start DMA Mode
+xil_printf: Hello World!
+Received: 1
+Have to receive 288 bytes
+0 remaining
+128: mb1_fsl: 0xFFAA
+133: mb3_fsl: 0xFFAA
+139: mb3_fsl: 0xFFAA
+145: mb4_fsl: 0xFFAA
+Tiles synced.
+Core 4 done
+Core 3 done
+Core 2 done
+Core 1 done
+Program finished
+Sending over: 3 bytes
+
+Receiving file with size: 3
+Wrote to 'binary.pnm'
+
+FINISHED
+
+
+scp co8:/tmp/.5kk03-WTWCA4z8o7rMuBk9/ttylog response.txt

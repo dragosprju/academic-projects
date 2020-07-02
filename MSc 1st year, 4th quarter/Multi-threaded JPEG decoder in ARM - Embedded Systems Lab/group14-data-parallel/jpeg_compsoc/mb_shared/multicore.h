@@ -1,0 +1,1 @@
+#define CORES 4
